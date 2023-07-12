@@ -1,3 +1,5 @@
+import chalk from "chalk";
+import { Presets, SingleBar } from "cli-progress";
 import { promises as fs } from "fs";
 import { nanoid } from "nanoid";
 import pMap from "p-map";
@@ -43,6 +45,16 @@ type PubData = {
 };
 
 async function main(browser: Browser) {
+    // format: "Scraping google scholar \n" + chalk.green("{bar}") + "| {percentage}% || {value}/{total} publications || {duration}s",
+    const progressBar = new SingleBar(
+        {
+            format: `${chalk.green(
+                "{bar}"
+            )} {percentage}% || {value}/{total} publications || {duration}s`,
+        },
+        Presets.shades_classic
+    );
+
     const pubData: PubData = JSON.parse(
         await fs.readFile("./assets/pub.json", {
             encoding: "utf-8",
@@ -64,13 +76,42 @@ async function main(browser: Browser) {
 
         const publicationsTable = await page.$("#gsc_a_b");
         const urls = await publicationsTable.$$("a[href^='/citations'");
+
+        const statsTable = await page.$$("#gsc_rsb_st tbody tr");
+        const stats = await Promise.all(
+            statsTable.map((stat) =>
+                stat.evaluate(({ children }) => [
+                    children[0].textContent,
+                    children[1].textContent,
+                ])
+            )
+        );
+
+        console.log(
+            chalk.bold.blue("Professor Dr. Kemal Akkaya Google Scholar Stats:")
+        );
+        stats.forEach(([key, value]) => {
+            console.log(`${key}: ${value}`);
+        });
+
+        console.log(
+            chalk.bold.magenta(
+                `\nUsed to update google scholar stats on https://adwise.fiu.edu/publications\n\n`
+            )
+        );
+
         return await Promise.all(
             urls.map((el) => el.evaluate((el) => el.href))
         );
     });
 
+    console.log(chalk.bold.blue("Scraping publications from google scholar"));
+
+    progressBar.start(urls.length, 0);
+
     if (!urls) {
         console.error("urls is null");
+        progressBar.stop();
         return;
     }
 
@@ -123,7 +164,11 @@ async function main(browser: Browser) {
                 } as unknown as Result;
 
                 const withTag = addTags(finalObj, pubData);
-                return getBibtex(withTag);
+                const bibtex = getBibtex(withTag);
+
+                progressBar.increment();
+
+                return bibtex;
             });
         },
         { concurrency: 10, stopOnError: true }
@@ -133,12 +178,19 @@ async function main(browser: Browser) {
     await fs.writeFile("./data/results.bib", data, {
         encoding: "utf-8",
     });
+
+    progressBar.stop();
+    console.log(
+        `${chalk.bold("Output is in")} => ${chalk.gray(
+            "./data/results.bib"
+        )}\n`
+    );
 }
 withBrowser(main);
 
 function addTags(obj: Result, pubData: PubData) {
     if (obj.tags) {
-        return {...obj, tags: obj.tags}
+        return { ...obj, tags: obj.tags };
     }
 
     const likelyHoods = Object.entries(pubData).map(([key, value]) => {
@@ -159,7 +211,7 @@ function addTags(obj: Result, pubData: PubData) {
         }
     );
 
-    return {...obj, tags: highestLikelyHood}
+    return { ...obj, tags: highestLikelyHood };
 }
 
 function similarity(s1: string, s2: string) {
@@ -214,7 +266,7 @@ function reduceObject<T>(objects: T[]): T {
 
 function getBibtex(obj: Result) {
     if (!shouldBeIncluded(obj)) {
-        return null
+        return null;
     }
 
     const type = obj.url.includes("ieee.org")
@@ -282,6 +334,8 @@ function shouldBeIncluded(obj: Result) {
 type Callback<T, R> = (_: T) => Promise<R>;
 
 async function withBrowser<R>(fn: Callback<Browser, R>) {
+    console.log(chalk.green("Starting browser... This may take a while"));
+
     const browser = await puppeteer.launch({
         headless: "new",
         defaultViewport: null,
