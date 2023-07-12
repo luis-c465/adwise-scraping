@@ -1,0 +1,2202 @@
+{
+    "Network Security": {
+        "publications": [
+            {
+                "year": 2022,
+                "fullText": "Abdel-Malek, Mai A., et al. “A Proxy Signature-Based Swarm Drone Authentication with Leader Selection in 5G Networks.” IEEE Access (2022).",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "L. Puche, L. Babun, K. Akkaya and S. Uluagac, “HDMI-Watch: Smart Intrusion Detection System Against HDMI Attacks”, in IEEE Transactions on Network Science and Engineering (TNSE) Vol. 8, No. 3, 2060 – 2072, Sept. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "A. Aydeger, M. Manshaei, M. Rahman and K. Akkaya, “Strategic Defense against Stealthy Link Flooding Attacks: A Signaling Game Approach” in IEEE Transactions on Network Science and Engineering (TNSE), Vol. 8, No. 1, pp. 751–764, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "M. Cebe and K. Akkaya, “Communication-efficient Certificate Revocation Management for Advanced Metering Infrastructure”, in Elsevier Future Generation Computer Systems Journal, Vol. 115, pp. 267-278, 2021.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient certificate revocation management schemes for IoT-based advanced metering infrastructures in smart cities”, Elsevier Ad Hoc Networks.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Alsharif, M. Nabil, S. Tonyali, H. Mohammed, M. Mahmoud and K. Akkaya, “EPIC: Efficient Privacy-Preserving Scheme With EtoE Data Integrity and Authenticity for AMI Networks,” in IEEE Internet of Things Journal, vol. 6, no. 2, pp. 3309-3321, April 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya, “A moving target defense and network forensics framework for ISP networks using SDN and NFV”, Elsevier Future Generation Computer Systems, Volume 94, 2019, pp. 496-509, 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Chunqiang Hu, Jiguo Yu, Xiuzhen Cheng, Zhi Tian, Kemal Akkaya, and Limin Sun. CP_ABSC: An attribute-based signcryption scheme to secure multicast communications in smart grids. Mathematical Foundations of Computing, 2018, 1 (1): 77-100.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro, S. Uluagac and M. Nojoumian, “Privacy-preserving protocols for secure and reliable data aggregation in IoT-enabled Smart Metering systems”, Elsevier Future Generation Computer Systems Journal, 78, 547-557, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "K. Rabieh, M. Mahmoud, K. Akkaya and S. Tonyali, “Scalable Certificate Revocation Schemes for Smart Grid AMI Networks Using Bloom Filters”, IEEE Transactions on Dependable and Secure Computing, Vol. 14, No. 4, pp. 420-432, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "M. Mahmoud, J. Misic, K. Akkaya, and S. Shen, “Investigating Public-Key Certificate Revocation in Smart Grid”, IEEE Internet of Things Journal, Vol. 2, No. 6, pp. 490-503, Dec. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Customized Certificate Revocation Lists for IEEE 802.11s-based Smart Grid AMI Networks”, IEEE Transactions on Smart Grid, vol.6, no.5, pp.2366-2374, Sept. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Group-based Hybrid Authentication Scheme for Cooperative Collision Warnings in VANETs”, Wiley Security and Communication Networks Journal, Vol. 4, No. 12, pp. 1469-1482, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Survey of Authentication Schemes for Vehicular Ad Hoc Networks”, Wiley Security and Communication Networks Journal, Vol. 4, No. 10, pp. 1137-1152, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Cebe and K. Akkaya, “A Bandwidth-Efficient Secure Authentication Module for Smart Grid DNP3 Protocol,” 2020 Resilience Week (RWS), Salt Lake City, UT, USA, 2020, pp. 160-166.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "A. Abdel-Malek, K. Akkaya, A. Bhuyan and A. S. Ibrahim, “A Proxy Signature-Based Swarm Drone Authentication With Leader Selection in 5G Networks,” in IEEE Access, vol. 10, pp. 57485-57498, 2022.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "L. Puche, L. Babun, K. Akkaya and S. Uluagac, “HDMI-Watch: Smart Intrusion Detection System Against HDMI Attacks”, in IEEE Transactions on Network Science and Engineering (TNSE) Vol. 8, No. 3, 2060 – 2072, Sept. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "A. Aydeger, M. Manshaei, M. Rahman and K. Akkaya, “Strategic Defense against Stealthy Link Flooding Attacks: A Signaling Game Approach” in IEEE Transactions on Network Science and Engineering (TNSE), Vol. 8, No. 1, pp. 751–764, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "M. Cebe and K. Akkaya, “Communication-efficient Certificate Revocation Management for Advanced Metering Infrastructure”, in Elsevier Future Generation Computer Systems Journal, Vol. 115, pp. 267-278, 2021.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient certificate revocation management schemes for IoT-based advanced metering infrastructures in smart cities”, Elsevier Ad Hoc Networks.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Alsharif, M. Nabil, S. Tonyali, H. Mohammed, M. Mahmoud and K. Akkaya, “EPIC: Efficient Privacy-Preserving Scheme With EtoE Data Integrity and Authenticity for AMI Networks,” in IEEE Internet of Things Journal, vol. 6, no. 2, pp. 3309-3321, April 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya, “A moving target defense and network forensics framework for ISP networks using SDN and NFV”, Elsevier Future Generation Computer Systems, Volume 94, 2019, pp. 496-509, 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Chunqiang Hu, Jiguo Yu, Xiuzhen Cheng, Zhi Tian, Kemal Akkaya, and Limin Sun. CP_ABSC: An attribute-based signcryption scheme to secure multicast communications in smart grids. Mathematical Foundations of Computing, 2018, 1 (1): 77-100.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro, S. Uluagac and M. Nojoumian, “Privacy-preserving protocols for secure and reliable data aggregation in IoT-enabled Smart Metering systems”, Elsevier Future Generation Computer Systems Journal, 78, 547-557, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "K. Rabieh, M. Mahmoud, K. Akkaya and S. Tonyali, “Scalable Certificate Revocation Schemes for Smart Grid AMI Networks Using Bloom Filters”, IEEE Transactions on Dependable and Secure Computing, Vol. 14, No. 4, pp. 420-432, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "M. Mahmoud, J. Misic, K. Akkaya, and S. Shen, “Investigating Public-Key Certificate Revocation in Smart Grid”, IEEE Internet of Things Journal, Vol. 2, No. 6, pp. 490-503, Dec. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Customized Certificate Revocation Lists for IEEE 802.11s-based Smart Grid AMI Networks”, IEEE Transactions on Smart Grid, vol.6, no.5, pp.2366-2374, Sept. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Group-based Hybrid Authentication Scheme for Cooperative Collision Warnings in VANETs”, Wiley Security and Communication Networks Journal, Vol. 4, No. 12, pp. 1469-1482, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Survey of Authentication Schemes for Vehicular Ad Hoc Networks”, Wiley Security and Communication Networks Journal, Vol. 4, No. 10, pp. 1137-1152, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Cebe and K. Akkaya, “A Bandwidth-Efficient Secure Authentication Module for Smart Grid DNP3 Protocol,” 2020 Resilience Week (RWS), Salt Lake City, UT, USA, 2020, pp. 160-166.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Bautista, Oscar G., and Kemal Akkaya. “Network-Efficient Pipelining-Based Secure Multiparty Computation for Machine Learning Applications.” 2022 IEEE 47th Conference on Local Computer Networks (LCN). IEEE, 2022.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "N. Saputro, S. Tonyali, A. Aydeger, K. Akkaya, M. Rahman, and S. Uluagac, “A Review of Moving Target Defense Applications for Internet of Things”, Book Chapter in Modeling and Design of Secure Internet of Things, edited by A. Kotz, C. Kamhua, and S. Shetty (to appear).",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Denney K., Uluagac A.S., Aksu H., Akkaya K, “An Android-Based Covert Channel Framework on Wearables Using Status Bar Notifications. In: Conti M., Somani G., Poovendran R. (eds) Versatile Cybersecurity. Advances in Information Security, vol 72. Springer, Cham, 2018.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Key Management": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "M. Cebe and K. Akkaya, “Communication-efficient Certificate Revocation Management for Advanced Metering Infrastructure”, in Elsevier Future Generation Computer Systems Journal, Vol. 115, pp. 267-278, 2021.",
+                "div": {}
+            },
+            {
+                "year": 1018,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient certificate revocation management schemes for IoT-based advanced metering infrastructures in smart cities”, Elsevier Ad Hoc Networks, Vol. 92, Sept. 2019, 101801.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "K. Rabieh, M. Mahmoud, K. Akkaya and S. Tonyali, “Scalable Certificate Revocation Schemes for Smart Grid AMI Networks Using Bloom Filters”, IEEE Transactions on Dependable and Secure Computing, Vol. 14, No. 4, pp. 420-432, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "M. Mahmoud, J. Misic, K. Akkaya, and S. Shen, “Investigating Public-Key Certificate Revocation in Smart Grid”, IEEE Internet of Things Journal, Vol. 2, No. 6, pp. 490-503, Dec. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Customized Certificate Revocation Lists for IEEE 802.11s-based Smart Grid AMI Networks”, IEEE Transactions on Smart Grid, vol.6, no.5, pp.2366-2374, Sept. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "Y. Hanna, M. Cebe, S. Mercan, and K. Akkaya, “Efficient Group-Key Management for Low-bandwidth Smart Grid Networks”, in the Proceedings of Smart Grid Communications Conference (SmartGridComm), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “A Replay Attack-Resistant 0-RTT Key Management Scheme for Low-Bandwidth Smart Grid Communications”, in the Proceedings of IEEE Globecom 2019, Hawaii, US, Dec. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “Performance Evaluation of Key Management Schemes for Wireless Legacy Smart Grid Environments” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient Public-key Revocation Management for Secure Smart Meter Communications using One-way Cryptographic Accumulators”, in the Proceedings of IEEE International Conference on Communications (ICC’18), Kansas City, MO, May 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient Management of Certificate Revocation Lists in Smart Grid Advanced Metering Infrastructure”, in the Proceedings of IEEE Mobile Ad Hoc and Sensor Systems (MASS’17), Orlando, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cebe and K. Akkaya, “Utilizing Advanced Metering Infrastructure to Build a Public Key Infrastructure for Electric Vehicles” Proceedings of ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications, Miami Beach, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "N. Saputro, S. Tonyali, K. Akkaya, M. Cebe and M. Mahmoud, “Efficient Certificate Verification for Vehicle-to-Grid Communications”, in the Proceedings of International Conference on Future Network Systems and Security, Gainesville, FL, Aug. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "A. Alsharif, S. Tonyali, M. Mahmoud, K. Akkaya, M. Ismail, and E. Serpedin, “Performance Analysis of Certificate Renewal Scheme for AMI Networks”, in the Proceedings of International Conference on Digital Signal Processing (ICDSP 2017), Kuala Lumpur, Malaysia, April 17-19, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "M. Mahmoud, K. Akkaya, K. Rabieh, and S. Tonyali, “An Efficient Certificate Revocation Scheme for Large-Scale AMI Networks”, in the Proceedings of IEEE IPCCC, Austin, TX, Dec. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Efficient Generation and Distribution of CRLs for IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference (SmartGridComm’14), Venice, Italy, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "Y. Hanna, M. Cebe, S. Mercan, and K. Akkaya, “Efficient Group-Key Management for Low-bandwidth Smart Grid Networks”, in the Proceedings of Smart Grid Communications Conference (SmartGridComm), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “A Replay Attack-Resistant 0-RTT Key Management Scheme for Low-Bandwidth Smart Grid Communications”, in the Proceedings of IEEE Globecom 2019, Hawaii, US, Dec. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “Performance Evaluation of Key Management Schemes for Wireless Legacy Smart Grid Environments” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient Public-key Revocation Management for Secure Smart Meter Communications using One-way Cryptographic Accumulators”, in the Proceedings of IEEE International Conference on Communications (ICC’18), Kansas City, MO, May 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient Management of Certificate Revocation Lists in Smart Grid Advanced Metering Infrastructure”, in the Proceedings of IEEE Mobile Ad Hoc and Sensor Systems (MASS’17), Orlando, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cebe and K. Akkaya, “Utilizing Advanced Metering Infrastructure to Build a Public Key Infrastructure for Electric Vehicles” Proceedings of ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications, Miami Beach, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "N. Saputro, S. Tonyali, K. Akkaya, M. Cebe and M. Mahmoud, “Efficient Certificate Verification for Vehicle-to-Grid Communications”, in the Proceedings of International Conference on Future Network Systems and Security, Gainesville, FL, Aug. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "A. Alsharif, S. Tonyali, M. Mahmoud, K. Akkaya, M. Ismail, and E. Serpedin, “Performance Analysis of Certificate Renewal Scheme for AMI Networks”, in the Proceedings of International Conference on Digital Signal Processing (ICDSP 2017), Kuala Lumpur, Malaysia, April 17-19, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "M. Mahmoud, K. Akkaya, K. Rabieh, and S. Tonyali, “An Efficient Certificate Revocation Scheme for Large-Scale AMI Networks”, in the Proceedings of IEEE IPCCC, Austin, TX, Dec. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Efficient Generation and Distribution of CRLs for IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference (SmartGridComm’14), Venice, Italy, Nov. 2014.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "User Authentication": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "A. Acar, S. Ali, K. Karabina, C. Kaygusuz, H. Aksu, K. Akkaya and S. Uluagac, “A Lightweight Privacy-aware Continuous Authentication Protocol – PACA” in ACM Transactions on Security and Privacy, Vol 24. No. 4, pp. 2-28, Nov. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "A. Acar, H. Aksu, A. S. Uluagac, and K. Akkaya, “A Usable and Robust Continuous Authentication Framework using Wearables”, IEEE Transactions on Mobile Computing, Vol. 20, No. 6, pp. 2140-2153, 2021",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "D. Gabay, M. Cebe and K. Akkaya, “A Privacy-preserving Authentication scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs”, IEEE Transactions on Vehicular Technology, Vol. 69, No. 6, pp. 5760-5772, June 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Acar, W. Liu, R. Bayeh, K. Akkaya and S. Uluagac, “A Privacy-preserving Multi-factor Authentication System” Springer Security and Privacy Journal, Vol. 2, No. 5, 2019.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "S. Mercan, M. Cebe, K. Akkaya, and J. Zuluaga, “Blockchain-based Two-Factor Authentication for Credit Card Validation”, in the Proceedings of 5th International Workshop on Cryptocurrencies and Blockchain Technology in conjunction with ESORICS’21, July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Abbas Acar, Hidayet Aksu, Kemal Akkaya, and A. Selcuk Uluagac, “WACA: Wearable-Assisted Continuous Authentication”, in the Proceedings of IEEE Security and Privacy Workshops (SPW) (2018).",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Privacy": {
+        "publications": [
+            {
+                "year": 2018,
+                "fullText": "F. Yucel, K. Akkaya and E. Bulut, “Efficient and Privacy Preserving Supplier Matching for Electric Vehicle Charging”, Elsevier Adhoc Networks Journal, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, R. Munoz, K. Akkaya and U. Ozgur, “A realistic performance evaluation of privacy-preserving protocols for smart grid AMI networks”, Elsevier Journal of Network and Computer Applications, Vol. 119, pp. 24-41, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro, S. Uluagac and M. Nojoumian, “Privacy-preserving protocols for secure and reliable data aggregation in IoT-enabled Smart Metering systems”, Elsevier Future Generation Computer Systems Journal, 78, 547-557, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Mahmoud, N. Saputro, P. Akula and K. Akkaya, “Privacy-Preserving Power Injection over a Hybrid AMI/LTE Smart Grid Network,” in IEEE Internet of Things Journal, Vol. 4, No. 4, pp. 870-880, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "S. Tonyali, O. Cakmak, K. Akkaya, M. Mahmoud and I. Guvenc, “Secure Data Obfuscation Scheme to Enable Privacy-Preserving State Estimation in Smart Grid AMI Networks”, IEEE Internet of Things Journal, Vol. 3 No. 5, pp. 709-719, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “On Preserving User Privacy in Smart Grid Advanced Metering Infrastructure Applications”, Wiley Security and Communications Networks Journal, Vol.7 No. 1, pp. 206-220, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "K. Rabieh, S. Mercan, K. Akkaya, Vashish Baboolal and R. Aygun, “Privacy-Preserving and Efficient Sharing of Drone Videos in Public Safety Scenarios using Proxy Re-encryption”, in the Proceedings of IEEE International Conference on Information Reuse and Integration (IRI’20), Aug. 2020 (invited paper).",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "Amiri, Wesam Al, Mohamed Baza, Karim Banawan, Mohamed Mahmoud, Waleed Alasmary, and K. Akkaya, “Privacy-Preserving Smart Parking System Using Blockchain and Private Information Retrieval”, in the Proceedings of International Conference on Smart Applications, Communications and Networking (SmartNets’2020), 2020 (Best Paper Award).",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "D. Gabay, M. Cebe and K. Akkaya, “A Privacy Framework for Charging Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs”, in the Proceedings of IEEE Local Computer Networks (LCN), Osnabruck, Germany, Oct. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "K. Akkaya, V. Baboolal, N. Saputro, S. Uluagac and H. Menouar, “Privacy-preserving Control of Video Transmissions for Drone-based Intelligent Transportation Systems”, in the Proceedings of IEEE CNS Workshop on CPS Security, Washington, DC, June 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "E. Bulut, I. Guvenc and K. Akkaya, “Privacy Preserving Distributed Matching for Device-to-Device IoT Communications” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "V. Baboolal, K. Akkaya, N. Saputro and K. Rabieh, “Preserving Privacy of Drone Videos using Proxy Re-encryption Technique” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "F. Yucel, E. Bulut and K. Akkaya, “Privacy Preserving Distributed Stable Matching of Electric Vehicles and Charge Suppliers”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "H. Mohammed, S. Tonyali, K. Rabieh, M. Mahmoud, and K. Akkaya, “Efficient Privacy-Preserving Data Collection Scheme for Smart Grid AMI Networks”, in the Proceedings of Global Telecommunications Conference (GLOBECOM’16), Washington, DC, Dec. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "U. Ozgur, S. Tonyali and K. Akkaya, “Testbed and Simulation-based Evaluation of Privacy-preserving Algorithms for Smart Grid AMI Networks”, in the Proceedings of IEEE P2MNET Workshop in conjunction with IEEE LCN’16, Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "U. Ozgur, S. Tonyali, K. Akkaya and F. Senel, “Comparative Evaluation of Smart Grid AMI Networks: Performance Under Privacy”, in the Proceedings of IEEE International Symposium on Computers and Communications (ISCC’16), Messina, Italy, June 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "M. Mahmoud, M. Ismail, P. Akula, K. Akkaya, E. Serpedin and K. Qaraqe, “Privacy-Aware Power Charging Coordination in Future Smart Grid”, Proceedings of IEEE Wireless Communications and Networking Conference (WCNC), Doha, Qatar, April 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "P. Armengol, R. Tobkes, K. Akkaya, B. Ciftler and I. Guvenc “Efficient Privacy-Preserving Fingerprint-based Indoor Localization Using Crowdsourcing “, in the Proceedings of IEEE REU Research in Networking and Systems Workshop in conjunction with IEEE MASS 2015, Dallas, TX, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "P. K. Akulla, M. Mahmoud, K. Akkaya, and M. Song “Privacy-Preserving and Secure Communication Scheme for Power Injection in Smart Grid”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and I. Guvenc “Privacy-aware Communication Protocol for Hybrid IEEE 802.11s/LTE Smart Grid Architectures”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "A. Beussink, K. Akkaya, I. Senturk and M. Mahmoud, “Preserving Consumer Privacy on IEEE 802.11s-based Smart Grid AMI Networks Using Data Obfuscation”, in the Proceedings of IEEE INFOCOM Workshop on Communications and Control for Smart Energy Systems (CCSES), Toronto, CA, April 2014.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. Sherif, M. Ismail, M. Pazos-Revilla, M. Mahmoud, K. Akkaya, E. Serpedin, K. Qaraqe, “Privacy Preserving Power Charging Coordination Scheme in the Smart Grid”, Book Chapter in Transportation and Power Grid in Smart Cities: Communication Networks and Services, John Wiley, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and A. Uluagac, “Privacy-preservation for IoT used in Smart Buildings”, Book Chapter in Security and Privacy in Internet of Things (IoTs): Models, Algorithms, and Implementations, edited by Fei Hu, Taylor & Francis, 2016.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Blockchain/Cryptocurrencies": {
+        "publications": [
+            {
+                "year": null,
+                "fullText": "S. Mercan, A. Kurt, E. Erdin and K. Akkaya, “Cryptocurrency Solutions to Enable Micro-payments in Consumer IoT,” in IEEE Consumer Electronics Magazine (to appear).",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "Kurt A, Erdin E, Akkaya K, Uluagac AS, Cebe M. D-LNBot: A Scalable, Cost-Free and Covert Hybrid Botnet on Bitcoin’s Lightning Network. arXiv preprint arXiv:2112.07623. 2021 Dec 14.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "E. Erdin, S. Mercan and K. Akkaya, “An Evaluation of Cryptocurrency Payment Channel Networks and Their Privacy Implications”, in ITU Journal on Future and Evolving Technologies, Vol. 2, No. 1, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "E. Erdin, M. Cebe, K. Akkaya, E. Bulut, and S. Uluagac, “A Scalable Private Bitcoin Payment Channel Network with Privacy Guarantees,” in Elsevier Journal of Network and Computer Applications, Vol. 180, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "S. Mercan, E. Erdin, and K. Akkaya, “Improving transaction success rate in cryptocurrency payment channel networks”, Elsevier Computer Communications, 166:196 – 207, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "E. Erdin, M. Cebe, K. Akkaya, S. Solak, E. Bulut and S. Uluagac, “A Bitcoin Payment Network with Reduced Transaction Fees and Confirmation Times”, Elsevier Computer Networks, Vol. 172, pp. 107098, 2020.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "M. Abbasi, M. Manshaei, M. Rahman, K. Akkaya and M. Jadliwala, “On Algorand Transaction Fee: Challenges and Mechanism Design, in the Proceeding of IEEE International Conference on Communications (ICC’22): Communication and Information Systems Security Symposium (to appear)",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Kurt, Ahmet, et al. “LNMesh: Who Said You need Internet to send Bitcoin? Offline Lightning Network Payments using Community Wireless Mesh Networks.” arXiv preprint arXiv:2304.14559 (2023).",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Kurt, Ahmet, et al. “LNGate^2: Secure Bidirectional IoT Micro-payments using Bitcoin’s Lightning Network and Threshold Cryptography.” arXiv preprint arXiv:2206.02248 (2022).",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Kurt, Ahmet, et al. “LNGate $^ 2$: Secure Bidirectional IoT Micro-payments using Bitcoin’s Lightning Network and Threshold Cryptography.” arXiv preprint arXiv:2206.02248 (2022).",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "S. Mercan, M. Cebe, K. Akkaya, and J. Zuluaga, “Blockchain-based Two-Factor Authentication for Credit Card Validation”, in the Proceedings of 5th International Workshop on Cryptocurrencies and Blockchain Technology in conjunction with ESORICS’21, July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "A. Kurt, S. Mercan, O. Shlomovits, E. Erdin and K. Akkaya, “LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography”, in the Proceedings of ACM Wireless and Mobile Security Conference (ACM WiSec’21), July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "A. Kurt, S. Mercan, E. Erdin, and K. Akkaya, “Enabling Micro-payments on IoT Devices using Bitcoin Lightning Network” in the Proceedings of IEEE International Conference on Blockchain and Cryptocurrencies (ICBC), May 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "A. Kurt, E. Erdin, M. Cebe, K. Akkaya and S. Uluagac, “LNBot: A Covert Hybrid Botnet on Bitcoin Lightning Network for Fun and Profit”, in the Proceedings of 25th European Symposium on Research in Computer Security (ESORICS), Sept. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, E. Erdin and K. Akkaya, “Improving Sustainability of Cryptocurrency Payment Networks for IoT Applications”, in the Proceedings of International Conference on Communications Workshop on Blockchain for IoT and CPS, June 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, A. Kurt, M. Cebe, K. Akkaya, “Cryptocurrency Payment Channel Network Testbed”, in NSF Future Experimental Research Infrastructures Workshop (MERIF), Miami, FL , Jan. 2020 (Invited paper).",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "Amiri, Wesam Al, Mohamed Baza, Karim Banawan, Mohamed Mahmoud, Waleed Alasmary, and K. Akkaya, “Privacy-Preserving Smart Parking System Using Blockchain and Private Information Retrieval”, in the Proceedings of International Conference on Smart Applications, Communications and Networking (SmartNets’2020), 2020 (Best Paper Award).",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, M. Cebe, E. Tekiner, K. Akkaya, M. Chang and S. Uluagac, “A Cost-efficient IoT Forensics Framework with Blockchain”, in the Proceedings of IEEE International Conference on Blockchain and Cryptocurrencies (ICBC’20), Sept. 2020",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "D. Gabay, M. Cebe and K. Akkaya, “A Privacy Framework for Charging Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs”, in the Proceedings of IEEE Local Computer Networks (LCN), Osnabruck, Germany, Oct. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "E. Erdin, M. Cebe, K. Akkaya, E. Bulut and S. Uluagac, “A Heuristic-based Private Bitcoin Payment Network Formation Using Off-Chain Links”, in the Proceedings of IEEE Blockchain Conference, Atlanta, GA, July 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "E. Erdin, M. Cebe, K. Akkaya, S. Solak, E. Bulut and Selcuk Uluagac, “Building a Private Bitcoin-based Payment Network among Electric Vehicles and Charging Stations”, in the Proceedings of IEEE International Conference on Blockchain, Hallifax, Canada, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe, B. Kaplan, and K. Akkaya, “A Network Coding Based Information Spreading Approach for Permissioned Blockchain in IoT Settings”, in the Proceedings of the 15th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous ’18). ACM, New York, NY, USA, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Abbasi, Maryam, et al. “On Algorand Transaction Fees: Challenges and Mechanism Design.” ICC 2022-IEEE International Conference on Communications. IEEE, 2022.",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Skelaney, Sondra, et al. “Government Applications and Standards to Use Blockchain.” Blockchain and its Applications in Industry 4.0. Singapore: Springer Nature Singapore, 2023. 99-122.",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Namasudra, Suyel, and Kemal Akkaya. “Introduction to Blockchain Technology.” Blockchain and its Applications in Industry 4.0. Singapore: Springer Nature Singapore, 2023. 1-28.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "IoT/Sensor Networks": {
+        "publications": [
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, L. Cain, K. Akkaya, M. Cebe, S. Uluagac, M. Alonso, and C. Cobanoglu. “Improving the service industry with hyper-connectivity: IoT in hospitality”, International Journal of Contemporary Hospitality Management, Vol. 33 No. 1, pp. 243-262, 2020.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "L. P. Rondon, L. Babun, A. Aris, K. Akkaya, A. S. Uluagac, “Survey on Enterprise Internet-of-Things systems (E-IoT): A security perspective”, Elsevier Ad Hoc Networks, Vol. 125, no. 6,  2022.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "I. Senturk, K. Akkaya, and S. Janansefat, “Towards realistic connectivity restoration in partitioned mobile sensor networks”, Int. Journal of Communication Systems, Vol. 29, no. 2, pp. 230-250, 2016",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "H. Oztarak, K. Akkaya, A. Yazici and P. Sarisaray, “Efficient Active Rule Processing in Wireless Multimedia Sensor Networks”, Int. Journal of Ad Hoc and Ubiquitous Networks, Vol. 21, no.1, pp. 64-77, 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "F. Senel, K. Akkaya, M. Kantarci and T. Yilmaz, “Self-deployment of Mobile Underwater Acoustic Sensor Networks for Maximized Coverage and Guaranteed Connectivity”, Elsevier Ad Hoc Networks, Volume 34, November 2015, Pages 170–183.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "K. Akkaya, I. F. Senturk, and S. Vemulapalli, “Handling Large-scale Node Failures in Mobile Sensor/Robot Networks”, Elsevier Journal of Network and Computer Applications, Vol. 36, No. 1, pp. 195-210, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "H. Oztarak, K. Akkaya and A. Yazici, “Efficient Tracking of Multiple Objects in Wireless Multimedia Sensor Networks” Ad Hoc & Sensor Wireless Networks, Volume 19, Number 3-4, pp. 241-276, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "I. F. Senturk, S. Yilmaz and K. Akkaya, “Connectivity Restoration in Delay Tolerant Sensor Networks using Game Theory”, International Journal of Ad Hoc and Ubiquitous Networks, Vol. 11, No. 2/3, pp. 109-124, 2012.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "K. Akkaya, F. Senel, A. Thimmapuram and S. Uludag, “Distributed Recovery from Network Partitioning in Movable Sensor/Actor Networks via Controlled Mobility”, IEEE Transactions on Computers, Vol. 59, No. 2, pp. 258 – 271, 2010.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "W. Zhang, Y. Liu and K. Akkaya, “Static Worst-Case Energy and Lifetime Estimation of Wireless Sensor Networks”, Journal of Computing Science and Engineering (JCSE), Vol. 4. No. 2, 2010.",
+                "div": {}
+            },
+            {
+                "year": 1379,
+                "fullText": "A. Abbasi, M. Younis and K. Akkaya, “Movement Assisted Connectivity Restoration in Wireless Sensor and Actor Networks”, IEEE Transactions on Parallel and Distributed Systems, Vol. 20, No. 9, 2009, pp.1366-1379.",
+                "div": {}
+            },
+            {
+                "year": 1346,
+                "fullText": "K. Akkaya and F. Senel, “Detecting and Connecting Disjoint Sub-networks in Wireless Sensor and Actor Networks”, Elsevier Ad Hoc Networks Journal, vol. 7, no. 7, 2009, pp. 1330-1346.",
+                "div": {}
+            },
+            {
+                "year": 2796,
+                "fullText": "K. Akkaya and S. Janapala, “Maximizing Connected Coverage via Controlled Actor Relocation in Wireless Sensor and Actor Networks”, Elsevier Computer Networks Journal, Vol. 52, Issue 14, 2008, pp. 2779-2796.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "K. Akkaya, M. Demirbas and R. S. Aygun, “The Impact of Data Aggregation on the Performance of Wireless Sensor Networks”, Wiley Wireless Communications & Mobile Computing (WCMC) Journal, Vol. 8 pp. 171-193, 2008.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "W. Youssef, M. Younis and K. Akkaya, “Improving Gateway Safety in Wire- less Sensor Networks using Cognitive Techniques”, International Journal of Sensor Networks, Vol. 43, No. 5, pp. 649668, 2007.",
+                "div": {}
+            },
+            {
+                "year": 2004,
+                "fullText": "K. Akkaya and M. Younis, “Energy-aware delay-constrained routing in wireless sensor networks”, International Journal of Communication Systems, Special Issue on Service Differentiation and QoS in Ad Hoc Networks, Vol. 17(6), pp. 663-687, 2004.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya and M. Younis, “Energy-Aware and QoS Routing in Wireless Sensor Networks”, Springer Cluster Computing Journal, Vol. 8 pp. 179-188, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya and M. Younis, “A Survey of Routing Protocols in Wireless Sensor Networks”, Elsevier Ad Hoc Network Journal, Vol. 3/3 pp. 325-349, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Rondon, Luis Puche, et al. “IVYCIDE: Smart Intrusion Detection System against E-IoT Driver Threats.” IEEE Internet of Things Journal (2022).",
+                "div": {}
+            },
+            {
+                "year": 1027,
+                "fullText": "Rondon, Luis Puche, et al. “Survey on enterprise Internet-of-Things systems (E-IoT): A security perspective.” Ad Hoc Networks 125 (2022): 102728.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Leon, Juan, Yacoub Hanna, and Kemal Akkaya. “Development and evaluation of a publish/subscribe iot data sharing model with lorawan.” Open Journal of Internet Of Things (OJIOT) 8.1 (2022): 7-19.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Kurt, Ahmet, et al. “LNGate $^ 2$: Secure Bidirectional IoT Micro-payments using Bitcoin’s Lightning Network and Threshold Cryptography.” arXiv preprint arXiv:2206.02248 (2022).",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Rondon, Luis Puche, et al. “Survey on enterprise Internet-of-Things systems (E-IoT): A security perspective.” Ad Hoc Networks 125 (2022): 102728, 2022.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "L. Puche, L. Babun, A. Aris, K. Akkaya and S. Uluagac, “LightningStrike: (In)secure Practices of E-IoT Systems in the Wild”, in the Proceedings of ACM Wireless and mobile Security Conference (ACM WiSec’21), July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, K. Akkaya, L. Cain, and J. Thomas, “Security, privacy and ethical concerns of IoT implementations in hospitality domain”, in the Proceedings of International Conferences on Internet of Things (iThings), pages198–203, IEEE, 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "L. Pusche, L. Babun, A. Aris, K. Akkaya and S. Uluagac, “(In)secure Practices of Enterprise IoT Systems in Smart Buildings”, in the Proceedings of International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (Buildsys ’20), 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, M. Cebe, E. Tekiner, K. Akkaya, M. Chang and S. Uluagac, “A Cost-efficient IoT Forensics Framework with Blockchain”, in the Proceedings of IEEE International Conference on Blockchain and Cryptocurrencies (ICBC’20), Sept. 2020",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, E. Erdin and K. Akkaya, “Improving Load Balancing Via Smart Gateway Selection in Cryptopayment Networks”, in the Proceedings of IEEE International Conference on Blockchain and Cryptocurrencies (ICBC’20), Sept. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "L. Babun, H. Aksu, L. Ryan, E. Bentley, K. Akkaya and S. Uluagac, “Z-IoT: Passive Device-class Fingerprinting of Zigbee and Z-wave IoT Devices”, in the Proceedings of IEEE International Conference on Communications (ICC’20), June 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "E. Bulut, I. Guvenc and K. Akkaya, “Privacy Preserving Distributed Matching for Device-to-Device IoT Communications” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. K. Sikder, A. Acar, H. Aksu, A. S. Uluagac, K. Akkaya and M. Conti, “IoT-enabled smart lighting systems for smart cities,” 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, 2018, pp. 639-645.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Hakim, H. Aksu, S. Uluagac and K. Akkaya, “U-PoT: A Honeypot Framework for UPnP-Based IoT Devices, Proceedings of IEEE IPCCC 2018, Orlando, FL, Nov. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe, B. Kaplan, and K. Akkaya, “A Network Coding Based Information Spreading Approach for Permissioned Blockchain in IoT Settings”, in the Proceedings of the 15th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous ’18). ACM, New York, NY, USA, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "K. Denny, A. Selcuk Uluagac, K. Akkaya and S. Bhansali, “A Novel Storage Covert Channel on Wearable Devices Using Status Bar Notifications”, Proceedings of IEEE Consumer Communications and Networking Conference (CCNC), Las Vegas, NV, Jan. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "B. Gonen, K. Akkaya and F. Senel, “Efficient Camera Selection for Maximized Target Coverage in Underwater Acoustic Sensor Networks”, in the Proceedings of IEEE Local Computer Networks Conference 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "E. Uzun, F. Senel, K. Akkaya and A. Yazici, “Distributed Connectivity Restoration in Underwater Acoustic Sensor Networks via Depth Adjustment”, in the Proceedings IEEE International Conference on Communications (ICC’15), London, UK, June 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, I. Guvenc, R. Aygun, N. Pala and A. Kadri “IoT-based Occupancy Monitoring Techniques for Energy-Efficient Smart Buildings”, in the Proceedings of IEEE WCNC Workshops, New Orleans, LA, April 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "I. F. Senturk and K. Akkaya, “Connectivity Restoration in Disjoint Wireless Sensor Networks Using Centrality Measures”, in the Proceedings of IEEE International Workshop on Performance and Management of Wireless and Mobile Networks (P2MNET’14), Edmonton, Canada, Sept. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "P. Boluk and K. Akkaya, “Performance Evaluation of Background Subtraction Algorithms for Android Devices Deployed in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE IWCMC 2014, Nicosia, Cyprus, Aug. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "F. Senturk and K. Akkaya, “Mobile Data Collector Assignment and Scheduling for Minimizing Data Delay in Partitioned Wireless Sensor Networks”, in the Proceedings of 5th International Conference on Ad Hoc Networks (ADHOCNETS’13), Barcelona, Spain, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "S. Janansefat, K. Akkaya, I. Senturk and M. Gloff, “Rethinking Connectivity Restoration in WSNs Using Feedback From a Low-cost Mobile Sensor Network Testbed”, in the Proceedings of IEEE International Workshop on Performance and Management of Wireless and Mobile Networks, Sydney, Australia, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "I. Senturk and K. Akkaya, “Energy and Coverage Trade-offs in Deploying a Mix of Mobile and Stationary Relays for Disjoint Wireless Sensor Networks”, in the Proceedings of IEEE Global Communications Conference 2013 (GLOBECOM’13), Atlanta, GA, Dec. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "I. Senturk, K. Akkaya, F. Senel and M. Younis, “Connectivity Restoration in Disjoint Wireless Sensor Networks using Limited Number of Mobile Relays”, in the Proceedings of IEEE ICC’13, Budapest, Hungary, June 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "I. Senturk and K. Akkaya, “Energy and Terrain Aware Connectivity Restoration in Disjoint Mobile Sensor Networks”, in the Proceedings of IEEE 12th IEEE International Workshop on Wireless Local Networks (WLN’12), Clearwater, FL, Oct. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "I. Senturk and K. Akkaya, “On the Performance of Sensor Node Repositioning Under Realistic Terrain Constraint”, in the Proceedings of 37th Annual IEEE Conference on Local Computer Networks (LCN’12), Clearwater, FL, Oct. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "I. Senturk, K. Akkaya and F. Senel, “An Effective and Scalable Connectivity Restoration Heuristic for Mobile Sensor/Actor Network”, in the Proceedings of IEEE Global Communications Conference 2012 (GLOBECOM’12), Annaheim, CA, Dec. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "S. Janansefat, I. Senturk, K. Akkaya and T. Gloff, “A Mobile Sensor Network Testbed Using iRobots”, in the Proceedings of Demonstrations of the IEEE Conference on Local Computer Networks 2012, Clearwater, FL, Oct. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "Senturk, K. Akkaya and S. Yilmaz, “Distributed Relay Node Positioning for Connectivity Restoration in Partitioned Wireless Sensor Networks”, in the Proceedings of IEEE International Symposium and Computers and Communications (ISCC’12), Cappadocia, Turkey, July 2012.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "I. Senturk, S. Yilmaz and K. Akkaya, “A Game-Theoretic Approach to Connectivity Restoration in Wireless Sensor and Actor Network”, in the Proceedings of Wireless Sensor Actor and Actuator Networks Workshop in conjunction with IEEE ICC’12, Ottawa, CA, June 2012.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "S. Vemulapalli and K. Akkaya, “Mobility-based Self Route Recovery from Multiple Node Failures in Mobile Sensor Networks”, in the Proceedings of 10th IEEE International Workshop on Wireless Local Networks (WLN) in conjunction with LCN’10, Denver, CO, Oct. 2010.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "W. Zhang, Yu and K. Akkaya, “Static Worst-case Lifetime Analysis of Wireless Sensor Networks”, in the Proceedings of IEEE International Performance Computing and Communications Conference (IPCCC’09), Scotsdale, AZ, Dec. 2009.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "Abbasi, U. Baraudi, M. Younis, K. Akkaya, “C2AM: An Algorithm for Application-Aware Movement-Assisted Recovery in Wireless Sensor and Actor Networks”, in the Proceedings of IEEE International Conference on Wireless Communications and Mobile Computing, Leipzig, Germany, June 2009.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "A. Newell and K. Akkaya, “Self-Actuation of Cameras for Redundant Data Elimination in Wireless Multimedia Sensor Networks”, in the Proceedings of International Conference on Communications (ICC’09), Dresden, Germany, June 2009.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "K. Akkaya, A. Thimmapuram, F. Senel and S. Uludag, “Distributed Recovery of Actor Failures in Wireless Sensor and Actor Networks”, in the Proceedings of IEEE Wireless Communication and Networking Conference (WCNC’08), Las Vegas, NV, April 2008.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "F. Senel, K. Akkaya and M. Younis, “An efficient mechanism for establishing connectivity in Wireless Sensor and Actor Networks”, in the Proceedings of IEEE Global Telecommunications Conference (GLOBECOM’07), Washington, DC, Nov. 2007.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "B. McLaughlan and K. Akkaya, “Coverage-based Clustering of Wireless Sensor and Actor Networks”, in the Proceedings of IEEE International Conference on Pervasive Services (ICPS’07), Istanbul, Turkey, July 2007.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "A. Abbasi, K. Akkaya and M. Younis, “A distributed connectivity restoration Algorithm in Wireless Sensor and Actor Networks”, in the Proceedings of IEEE International Conference on Local Computer Networks, (LCN’07), Dublin, Ireland, Oct. 2007.",
+                "div": {}
+            },
+            {
+                "year": 2006,
+                "fullText": "W. Youssef, M. Younis and K. Akkaya, “An Intelligent Safety-Aware Gate- way Relocation Scheme for Wireless Sensor Networks”, in the Proceedings of the IEEE International Conference on Communications (ICC’06), Istanbul, Turkey, June 2006.",
+                "div": {}
+            },
+            {
+                "year": 2004,
+                "fullText": "K. Akkaya and M. Younis, “Relocation of gateway for enhanced timeliness in wireless sensor networks”, in the Proceedings of IEEE Workshop on Energy- Efficient Wireless Communications and Networks (EWCN), Phoenix, AZ, April 2004.",
+                "div": {}
+            },
+            {
+                "year": 2003,
+                "fullText": "M. Younis, K. Akkaya and A. Kunjithapatham, “Optimization of Task Allocation in a Cluster-Based Sensor Network” in the Proceedings of the 8th IEEE Symposium on Computers and Communications (ISCC’03), Antalya, Turkey, June 2003.",
+                "div": {}
+            },
+            {
+                "year": 2003,
+                "fullText": "M. Younis, M. Bangad and K. Akkaya, “Base-Station Repositioning For Optimized Performance of Sensor Networks”, in the Proceedings of the IEEE VTC 2003 – Wireless Ad hoc, Sensor, and Wearable Networks, Orlando, Florida, Oct. 2003.",
+                "div": {}
+            },
+            {
+                "year": 2003,
+                "fullText": "K. Akkaya and M. Younis, “An Energy-Aware QoS Routing Protocol for Wireless Sensor Networks”, in the Proceedings of the IEEE Workshop on Mobile and Wireless Networks (MWN’03), Providence, Rhode Island, May 2003.",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Bozhko, Jessica, et al. “Performance Evaluation of Quantum-Resistant TLS for Consumer IoT Devices.” 2023 IEEE 20th Consumer Communications & Networking Conference (CCNC). IEEE, 2023.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "N. Saputro, S. Tonyali, A. Aydeger, K. Akkaya, M. Rahman, and S. Uluagac, “A Review of Moving Target Defense Applications for Internet of Things”, Book Chapter in Modeling and Design of Secure Internet of Things, edited by A. Kotz, C. Kamhua, and S. Shetty (to appear).",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Denney K., Uluagac A.S., Aksu H., Akkaya K, “An Android-Based Covert Channel Framework on Wearables Using Status Bar Notifications. In: Conti M., Somani G., Poovendran R. (eds) Versatile Cybersecurity. Advances in Information Security, vol 72. Springer, Cham, 2018.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "U. Kocabiyik and K. Akkaya, “Digital Forensics for IoT and Sensor Networks”, Book Chapter in The Philosophy of Mission-oriented Wireless Sensor Networks, Springer (in press).",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and A. Uluagac, “Privacy-preservation for IoT used in Smart Buildings”, Book Chapter in Security and Privacy in Internet of Things (IoTs): Models, Algorithms, and Implementations, edited by Fei Hu, Taylor & Francis, 2016.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "M. Younis, T. Nadeem, A. Bicak and K. Akkaya, “Energy-efficient MAC Protocols for Wireless Sensor Networks”, Book Chapter, Wireless Sensor Networks: From Theory to Applications, Ibrahim M. M. El Emary, S. Ramakrishnan (eds), CRC Press, Taylor and Francis Group, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "K. Akkaya, I. F. Senturk, and S. Janansefat, “Design, Implementation and Networking of Mobile Sensing Platforms”, Book Chapter, Cooperative Robots and Sensor Networks, A. Koubaa, A. Khelil (eds), Springer, 2014.",
+                "div": {}
+            },
+            {
+                "year": 1146,
+                "fullText": "K. Akkaya and I. Ari, “In-network Data Aggregation in Wireless Sensor Networks”, Book Chapter, Handbook of Computer Networks, Ed. H. Bidgoli, John Wiley & Sons, Vol. 2, 2007, pp. 1131-1146.",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Puche Rondon, Luis, et al. “LGuard: Securing Enterprise-IoT Systems against Serial-Based Attacks via Proprietary Communication Buses.” Digital Threats: Research and Practice 4.1 (2023): 1-26.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Wireless Networking": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "M. A. Abdel-Malek, N. Saputro, A. Ibrahim, K. Akkaya, “UAV-Assisted Multi-path Parallel Routing for mmWave-Based Wireless Networks, Elsevier Internet of Things Journal, Vol. 14, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "O. Bautista, K. Akkaya, S. Uluagac, “Customized novel routing metrics for wireless mesh-based swarm-of-drones applications”, Elsevier Internet of Things Journal, Vol. 11, 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Abdelmalek, A. Ibrahim, M. Mokhtar and K. Akkaya, “UAV Positioning for Out-of-Band Integrated Access and Backhaul Millimeter Wave Network”, Elsevier Physical Communications Journal, Vol. 35, 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "B. Ciftler, S. Dikmese, I. Guvenc, K. Akkaya and A. Kadri, “Occupancy Counting with Burst and Intermittent Signals in Smart Buildings”, in IEEE Internet of Things Journal, Vol. 5, No. 2, pp. 724-735, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "N. Saputro and K. Akkaya, “Investigation of Smart Meter Data Reporting Strategies for Optimized Performance in Smart Grid AMI Networks”, in IEEE Internet of Things Journal, Vol. 4, No. 4, pp- 894-904, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "P. Sarisaray and K. Akkaya, “Performance comparison of data reduction techniques for Wireless Multimedia Sensor Network applications”, International Journal of Distributed Sensor Networks, Vol. 11, No. 8, 2015.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "I. Senturk, K. Akkaya, and S. Janansefat, “Towards realistic connectivity restoration in partitioned mobile sensor networks”, Int. Journal of Communication Systems, Vol. 29, no. 2, pp. 230-250, 2016",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro and K. Akkaya, “PARP-S: A Piggybacking-based ARP for IEEE 802.11s-based Smart Grid AMI Networks”, Elsevier Computer Communications, Volume 58, pp. 16-28, 2015.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "K. Akkaya, I. F. Senturk, and S. Vemulapalli, “Handling Large-scale Node Failures in Mobile Sensor/Robot Networks”, Elsevier Journal of Network and Computer Applications, Vol. 36, No. 1, pp. 195-210, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "S. Uludag, T. Imboden, and K. Akkaya, “A taxonomy and evaluation for developing 802.11-based wireless mesh network testbeds”, International Journal of Communication Systems, Vol. 25, No. 8, pp. 963-990, 2012.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "A. Newell and K. Akkaya, “Distributed Collaborative Camera Actuation for Redundant Data Elimination in Wireless Multimedia Sensor Networks”, Elsevier Ad Hoc Networks Journal Special Issue on Wireless Multimedia Sensor Networks, Vol. 9, No. 4, pp. 514-527, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2004,
+                "fullText": "K. Akkaya and M. Younis, “Energy-aware delay-constrained routing in wireless sensor networks”, International Journal of Communication Systems, Special Issue on Service Differentiation and QoS in Ad Hoc Networks, Vol. 17(6), pp. 663-687, 2004.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya and M. Younis, “Energy-Aware and QoS Routing in Wireless Sensor Networks”, Springer Cluster Computing Journal, Vol. 8 pp. 179-188, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya and M. Younis, “A Survey of Routing Protocols in Wireless Sensor Networks”, Elsevier Ad Hoc Network Journal, Vol. 3/3 pp. 325-349, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "A. Kurt and K. Akkaya, “Connectivity Maintenance Extensions to IEEE 802.11s MAC Layer in NS-3”, in the Proceedings of Workshop on ns-3 (WNS3’20), May 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "O. Bautista Chia and K. Akkaya, “Extending IEEE 802.11s Mesh Routing for 3-D Mobile Drone Applications in NS-3”, in the Proceedings of Workshop on ns-3 (WNS3’20), May 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "Oscar Bautista, K. Akkaya and S. Uluagac, “A Novel Routing Metric for IEEE 802.11s-based Swarm-of-Drones Applications”, in the Proceedings of International Conference on Mobile and Ubiquitous Systems Workshops, Dallas, TX, Sept. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Abdelmalek, N. Saputro, K. Akkaya and A. Ibrahim, “UAV-assisted Secure Routing for Millimeter Wave Wireless Mesh Networks”, in the Proceedings of 3rd Workshop for Women in Hardware and Systems Security (WISE), McLean, VA, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "N. Saputro, K. Akkaya and S. Uluagac, “Supporting Seamless Connectivity in Drone-assisted Intelligent Transportation Systems”, in the Proceedings of IEEE LCN Workshops 2018, Chicago, IL, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali and K. Akkaya, “A Scalable Protocol Stack for IEEE 802.11s-based Advanced Metering Infrastructure Networks”, in the Proceedings of IEEE Consumer and Communications Networking Conference (CCNC’18), Las Vegas, NV, Jan. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and S. Tonyali, “Addressing Network Interoperability in Hybrid IEEE 802.11s/LTE Smart Grid Communications”, in the Proceedings of IEEE Local Computer Networks (LCN’16), Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "E. Vattapparamban, B. Çiftler, İ. Güvenç, K. Akkaya and A. Kadri, “Indoor occupancy tracking in smart buildings using passive sniffing of probe requests,” in the Proceedings of IEEE International Conference on Communications Workshops (ICC), Kuala Lumpur, Malaysia, May 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and A. I. Yurekli “Path Error-Aware RTO Design for Smart Meter Data Traffic in IEEE 802.11s-based AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "F. Koohifar, N. Saputro, I. Guvenc and K. Akkaya, “Hybrid Wi-Fi/LTE Aggregation Architecture for Smart Meter Communications”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and I. Guvenc “Privacy-aware Communication Protocol for Hybrid IEEE 802.11s/LTE Smart Grid Architectures”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, A. S. Uluagac and A. Aydeger “Software Defined Networking for Wireless Local Networks in Smart Grid”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “Periodic Data Reporting Strategies for IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference (SmartGridComm’14), Venice, Italy, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “An Improved TCP for Reduced Packet Delay in IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of 6th International Conference on Ad Hoc Networks (ADHOCNETS’14), Barcelona, Spain, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "N. Saputro and K. Akkaya, “An Efficient and Secure ARP for Large-scale IEEE 802.11s-based Smart Grid Networks”, in the Proceedings of 5th International Conference on Ad Hoc Networks (ADHOCNETS’13), Barcelona, Spain, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "N. Saputro and K. Akkaya, “An Efficient ARP for Large-scale IEEE 802.11s- based Smart Grid Networks”, in the Proceedings of IEEE LCN 2013, short paper, Sydney, Australia, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "T. Imboden, K. Akkaya and Z. Moore, “Performance Evaluation of Wireless Mesh Networks using IEEE 802.11s and IEEE 802.11”, in the Proceedings of Convergence among Heterogeneous Wireless Systems in Future Internet Workshop in conjunction with IEEE ICC’12, Ottawa, CA, June 2012.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "S. Uludag and K. Akkaya, “Distributed Channel Assignment in Wireless Mesh Networks with Guaranteed Connectivity”, in the Proceedings of IEEE Local Computer Networks (LCN’08), short paper, Montreal, Canada, Oct. 2008.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "A. Sama and K. Akkaya, “Real-time Routing for Mobile Sensor/Actor Networks”, in the Proceedings of 8th IEEE International Workshop on Wireless Local Networks (WLN) in conjunction with LCN’08, Montreal, Canada, Oct. 2008.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "S. Uludag, L. Perkovic, A. Kashkanova and K. Akkaya, “Quality-of-Service Provisioning via Stochastic Path Selection under Weibullian Link Delays,” in the Proceedings of IEEE/ACM International Conference on Quality of Service in Heterogeneous Wired/Wireless Networks (QShine’07), Vancouver, CA, Aug. 2007.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya, M. Younis and M. Youssef, “Efficient Aggregation of Delay-Constrained Data in Wireless Sensor Networks”, in the Proceedings of Internet Compatible QoS in Ad Hoc Wireless Networks, Cairo, Egypt, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2004,
+                "fullText": "K. Akkaya and M. Younis, “Energy-Aware Routing to a Mobile Gateway in Wireless Sensor Networks”, in the Proceedings of the IEEE Globecom Wireless Ad Hoc and Sensor Networks Workshop, Dallas, TX, November, 2004.",
+                "div": {}
+            },
+            {
+                "year": 2004,
+                "fullText": "M. Younis, K. Akkaya, M. Eltowiessy and A. Wadaa, “On Handling QoS Traffic in Wireless Sensor Networks”, in the Proceedings of the International Conference HAWAII International Conference on System Sciences (HICSS-37), Big Island, Hawaii, Jan. 2004.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "A. Uluagac, K. Akkaya, A. Mohan, M. Cintuglu, T. Youssef, O. Mohammed, D. Sullivan, “Wireless Infrastructure in Industrial Control Systems”, Book Chapter in Cybersecurity of Industrial Control Systems, edited by E. Colbert & A. Kott, Springer (in press, 23 pages).",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "M. Younis, T. Nadeem, A. Bicak and K. Akkaya, “Energy-efficient MAC Protocols for Wireless Sensor Networks”, Book Chapter, Wireless Sensor Networks: From Theory to Applications, Ibrahim M. M. El Emary, S. Ramakrishnan (eds), CRC Press, Taylor and Francis Group, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "M. Younis, K. Akkaya and Moustafa Youssef “Efficient Handling of QoS Traffic in Wireless Sensor Networks”, Book Chapter, Encyclopedia on Ad Hoc and Ubiquitous Computing, Ed. Dharma P Agrawal and Bin Xie, World Scientific, pp. 257-281, Sept. 2009.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "4/5G": {
+        "publications": [
+            {
+                "year": 2020,
+                "fullText": "A. Kumar, H. Binol, S. Singh, I. Guvenc and K. Akkaya, “Heuristic Approach for Jointly Optimizing FeICIC and UAV Locations in Multi-Tier LTE-Advanced Public Safety HetNet”, in IET Communications, Vol. 14. No. 20, pp. 3585 – 3598, 2020.",
+                "div": {}
+            },
+            {
+                "year": 1379,
+                "fullText": "Binol, H., I. Guvenc, E. Bulut, and K. Akkaya, “Hybrid evolutionary search method for complex function optimization problems” IEEE Electronics Letters 54, no. 24 (2018): 1377-1379.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "M. Abdelmalek, K. Akkaya, A. Bhuyan and A. Ibrahim, “A Proxy Signature-Based Drone Authentication in 5G D2D Networks, in the Proceedings of IEEE Vehicular Technology Conference (VTC), Spring 2021, April 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Abdelmalek, K. Akkaya, A. Bhuyan and A. Ibrahim, “Enabling Second Factor Authentication for Drones in 5G using Network Slicing” in the Proceedings of IEEE GLOBECOM Workshop on 5G and Beyond Security (Wireless-Sec’20), Dec. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Kumbhar, H. Binol, I. Guvenc, and K. Akkaya, “Interference Coordination for Aerial and Terrestrial Nodes in Three-Tier LTE-Advanced HetNet”, in the Proceedings of IEEE Radio and Wireless Symposium 2019, Orland, FL Jan. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and S. Tonyali, “Addressing Network Interoperability in Hybrid IEEE 802.11s/LTE Smart Grid Communications”, in the Proceedings of IEEE Local Computer Networks (LCN’16), Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "F. Koohifar, N. Saputro, I. Guvenc and K. Akkaya, “Hybrid Wi-Fi/LTE Aggregation Architecture for Smart Meter Communications”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and I. Guvenc “Privacy-aware Communication Protocol for Hybrid IEEE 802.11s/LTE Smart Grid Architectures”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2023,
+                "fullText": "Harrilal-Parchment, Ricardo, et al. “Bringing DNS Service to 5G Edge for Reduced Latencies in mMTC Applications.” 2023 IEEE International Conference on Industrial Technology (ICIT). IEEE, 2023.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Smart Grid": {
+        "publications": [
+            {
+                "year": 2019,
+                "fullText": "E. Bulut, M. Kisacikoglu and K. Akkaya, “Spatio-Temporal Non-intrusive Direct V2V Charge Sharing Coordination”, IEEE Transactions on Vehicular Technology, Vol. 68, No. 10, pp. 9385-9398, Oct. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya, and S. Uluagac, “SDN-enabled recovery for Smart Grid teleprotection applications in post-disaster scenarios”, Journal of Network and Computer Applications, 138 (2019): 39-50",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Alsharif, M. Nabil, S. Tonyali, H. Mohammed, M. Mahmoud and K. Akkaya, “EPIC: Efficient Privacy-Preserving Scheme With EtoE Data Integrity and Authenticity for AMI Networks,” in IEEE Internet of Things Journal, vol. 6, no. 2, pp. 3309-3321, April 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "F. Yucel, K. Akkaya and E. Bulut, “Efficient and Privacy Preserving Supplier Matching for Electric Vehicle Charging”, Elsevier Adhoc Networks Journal, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, R. Munoz, K. Akkaya and U. Ozgur, “A realistic performance evaluation of privacy-preserving protocols for smart grid AMI networks”, Elsevier Journal of Network and Computer Applications, Vol. 119, pp. 24-41, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "Chunqiang Hu, Jiguo Yu, Xiuzhen Cheng, Zhi Tian, Kemal Akkaya, and Limin Sun. CP_ABSC: An attribute-based signcryption scheme to secure multicast communications in smart grids. Mathematical Foundations of Computing, 2018, 1 (1): 77-100.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "E. Harmon, U. Ozgur, M. H. Cintuglu, R. de Azevedo, K. Akkaya and O. A. Mohammed, “The Internet of Microgrids: A Cloud-Based Framework for Wide Area Networked Microgrids,” in IEEE Transactions on Industrial Informatics, vol. 14, no. 3, pp. 1262-1274, March 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro, S. Uluagac and M. Nojoumian, “Privacy-preserving protocols for secure and reliable data aggregation in IoT-enabled Smart Metering systems”, Elsevier Future Generation Computer Systems Journal, 78, 547-557, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cintuglu, O. Mohammed, K. Akkaya and S. Uluagac, “A Survey on Smart Grid Cyber-physical System Testbeds”, IEEE Communication Surveys & Tutorials, Vol. 19, No. 1, pp. 446-464, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "N. Saputro and K. Akkaya, “Investigation of Smart Meter Data Reporting Strategies for Optimized Performance in Smart Grid AMI Networks”, in IEEE Internet of Things Journal, Vol. 4, No. 4, pp- 894-904, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Mahmoud, N. Saputro, P. Akula and K. Akkaya, “Privacy-Preserving Power Injection over a Hybrid AMI/LTE Smart Grid Network,” in IEEE Internet of Things Journal, Vol. 4, No. 4, pp. 870-880, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "S. Tonyali, O. Cakmak, K. Akkaya, M. Mahmoud and I. Guvenc, “Secure Data Obfuscation Scheme to Enable Privacy-Preserving State Estimation in Smart Grid AMI Networks”, IEEE Internet of Things Journal, Vol. 3 No. 5, pp. 709-719, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "M. Mahmoud, J. Misic, K. Akkaya, and S. Shen, “Investigating Public-Key Certificate Revocation in Smart Grid”, IEEE Internet of Things Journal, Vol. 2, No. 6, pp. 490-503, Dec. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Customized Certificate Revocation Lists for IEEE 802.11s-based Smart Grid AMI Networks”, IEEE Transactions on Smart Grid, vol.6, no.5, pp.2366-2374, Sept. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “On Preserving User Privacy in Smart Grid Advanced Metering Infrastructure Applications”, Wiley Security and Communications Networks Journal, Vol.7 No. 1, pp. 206-220, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "N. Saputro, K. Akkaya and S. Uludag,“A Survey of Routing Protocols for Smart Grid Communications”, Computer Networks Journal, Vol. 56, No. 11, pp. 2742- 2771, 2012.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "Y. Hanna, M. Cebe, S. Mercan, and K. Akkaya, “Efficient Group-Key Management for Low-bandwidth Smart Grid Networks”, in the Proceedings of Smart Grid Communications Conference (SmartGridComm), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Cebe and K. Akkaya, “A Bandwidth-Efficient Secure Authentication Module for Smart Grid DNP3 Protocol,” 2020 Resilience Week (RWS), Salt Lake City, UT, USA, 2020, pp. 160-166.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “A Replay Attack-Resistant 0-RTT Key Management Scheme for Low-Bandwidth Smart Grid Communications”, in the Proceedings of IEEE Globecom 2019, Hawaii, US, Dec. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Cebe and K. Akkaya, “Performance Evaluation of Key Management Schemes for Wireless Legacy Smart Grid Environments” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "D. Gabay, M. Cebe and K. Akkaya, “On the Overhead of Using Zero-Knowledge Proofs for Electric Vehicle Authentication” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "F. Yucel, E. Bulut and K. Akkaya, “Privacy Preserving Distributed Stable Matching of Electric Vehicles and Charge Suppliers”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe and K. Akkaya, “Efficient Public-key Revocation Management for Secure Smart Meter Communications using One-way Cryptographic Accumulators”, in the Proceedings of IEEE International Conference on Communications (ICC’18), Kansas City, MO, May 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "S. Tonyali and K. Akkaya, “A Scalable Protocol Stack for IEEE 802.11s-based Advanced Metering Infrastructure Networks”, in the Proceedings of IEEE Consumer and Communications Networking Conference (CCNC’18), Las Vegas, NV, Jan. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya and S. Uluagac, “Assessing the Overhead of Authentication during SDN-Enabled Restoration of Smart Grid Inter-substation Communications”, in the Proceedings of IEEE Consumer and Communications Networking Conference (CCNC’18), Las Vegas, NV, Jan. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "R. Algin, H. Tan and K. Akkaya, “Mitigating Selective Jamming Attacks in Smart Meter Data Collection using Moving Target Defense”, in the Proceedings of ACM International Symposium on QoS and Security for Wireless and Mobile Networks, Miami Beach, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "B. Roberts, K. Akkaya, E. Bulut and M. Kisacikoglu, “An Authentication Framework for Electric Vehicle-to-Electric Vehicle Charging Applications”, in the Proceedings of IEEE REUNS Workshop on Networking and Systems, Orlando, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Cebe and K. Akkaya, “Utilizing Advanced Metering Infrastructure to Build a Public Key Infrastructure for Electric Vehicles” Proceedings of ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications, Miami Beach, FL, Oct. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "U. Ozgur, H. Nair, A. Sundararajan, K. Akkaya and A. Sarwat, “An Efficient MQTT Framework for Control and Protection of Networked Cyber-Physical Systems”, in the Proceedings of Communications and Network Security (CNS) Workshop on CPS Security, Las Vegas, NV, Nov. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "N. Saputro, S. Tonyali, K. Akkaya, M. Cebe and M. Mahmoud, “Efficient Certificate Verification for Vehicle-to-Grid Communications”, in the Proceedings of International Conference on Future Network Systems and Security, Gainesville, FL, Aug. 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro and X. Cheng, “An Attribute & Network Coding-based Secure Multicast Protocol for Firmware Updates in Smart Grid AMI Networks”, in the Proceedings of International Conference on Computer Communications and Networks (ICCCN), Vancouver, Canada, July 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "S. Tonyali, K. Akkaya and N. Saputro “An Attribute-based Reliable Multicast-over-Broadcast Protocol for Firmware Updates in Smart Meter Networks”, in the Proceedings of INFOCOM MiSENET Workshop 2017, Atlanta, GA, April 2017.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "A. Alsharif, S. Tonyali, M. Mahmoud, K. Akkaya, M. Ismail, and E. Serpedin, “Performance Analysis of Certificate Renewal Scheme for AMI Networks”, in the Proceedings of International Conference on Digital Signal Processing (ICDSP 2017), Kuala Lumpur, Malaysia, April 17-19, 2017.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "H. Mohammed, S. Tonyali, K. Rabieh, M. Mahmoud, and K. Akkaya, “Efficient Privacy-Preserving Data Collection Scheme for Smart Grid AMI Networks”, in the Proceedings of Global Telecommunications Conference (GLOBECOM’16), Washington, DC, Dec. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "U. Ozgur, S. Tonyali and K. Akkaya, “Testbed and Simulation-based Evaluation of Privacy-preserving Algorithms for Smart Grid AMI Networks”, in the Proceedings of IEEE P2MNET Workshop in conjunction with IEEE LCN’16, Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and S. Tonyali, “Addressing Network Interoperability in Hybrid IEEE 802.11s/LTE Smart Grid Communications”, in the Proceedings of IEEE Local Computer Networks (LCN’16), Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "U. Ozgur, S. Tonyali, K. Akkaya and F. Senel, “Comparative Evaluation of Smart Grid AMI Networks: Performance Under Privacy”, in the Proceedings of IEEE International Symposium on Computers and Communications (ISCC’16), Messina, Italy, June 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "A. Aydeger, K. Akkaya, M. Cintuglu, A. Uluagac, and O. Mohammed, “Software Defined Networking for Resilient Communications in Smart Grid Active Distribution Networks”, in the Proceedings of IEEE International Conference on Communications (ICC’16), Kuala Lumpur, Malaysia, May 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "M. Mahmoud, M. Ismail, P. Akula, K. Akkaya, E. Serpedin and K. Qaraqe, “Privacy-Aware Power Charging Coordination in Future Smart Grid”, Proceedings of IEEE Wireless Communications and Networking Conference (WCNC), Doha, Qatar, April 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro and A. Selcuk Uluagac, “A Reliable Data Aggregation Mechanism with Homomorphic Encryption in Smart Grid AMI Networks”, Proceedings of IEEE Consumer Communications and Networking Conference (CCNC), Las Vegas, NV, Jan. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "A. Aydeger, K. Akkaya, and A. Uluagac “SDN-based Resilience in Smart Grid”, in the Proceedings of IEEE NFV&SDN Conference Demos 2015, San Francisco, CA, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and A. I. Yurekli “Path Error-Aware RTO Design for Smart Meter Data Traffic in IEEE 802.11s-based AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "F. Koohifar, N. Saputro, I. Guvenc and K. Akkaya, “Hybrid Wi-Fi/LTE Aggregation Architecture for Smart Meter Communications”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "P. K. Akulla, M. Mahmoud, K. Akkaya, and M. Song “Privacy-Preserving and Secure Communication Scheme for Power Injection in Smart Grid”, in the Proceedings of IEEE Smart Grid Communications Conference 2015, Miami, FL, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "N. Saputro, K. Akkaya, and I. Guvenc “Privacy-aware Communication Protocol for Hybrid IEEE 802.11s/LTE Smart Grid Architectures”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, A. S. Uluagac and A. Aydeger “Software Defined Networking for Wireless Local Networks in Smart Grid”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "S. Tonyali, K. Akkaya and N. Saputro, “Assessing the Feasibility of Fully Homomorphic Encryption for Smart Grid AMI Networks”, in the Proceedings of International Conference on Ubiquitous and Future Networks, Sapporo, Japan, July 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "M. Mahmoud, K. Akkaya, K. Rabieh, and S. Tonyali, “An Efficient Certificate Revocation Scheme for Large-Scale AMI Networks”, in the Proceedings of IEEE IPCCC, Austin, TX, Dec. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "K. Akkaya, K. Rabieh, M. Mahmoud and S. Tonyali, “Efficient Generation and Distribution of CRLs for IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference (SmartGridComm’14), Venice, Italy, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “Periodic Data Reporting Strategies for IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of IEEE Smart Grid Communications Conference (SmartGridComm’14), Venice, Italy, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "N. Saputro and K. Akkaya, “An Improved TCP for Reduced Packet Delay in IEEE 802.11s-based Smart Grid AMI Networks”, in the Proceedings of 6th International Conference on Ad Hoc Networks (ADHOCNETS’14), Barcelona, Spain, Nov. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "A. Beussink, K. Akkaya, I. Senturk and M. Mahmoud, “Preserving Consumer Privacy on IEEE 802.11s-based Smart Grid AMI Networks Using Data Obfuscation”, in the Proceedings of IEEE INFOCOM Workshop on Communications and Control for Smart Energy Systems (CCSES), Toronto, CA, April 2014.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "N. Saputro and K. Akkaya, “An Efficient and Secure ARP for Large-scale IEEE 802.11s-based Smart Grid Networks”, in the Proceedings of 5th International Conference on Ad Hoc Networks (ADHOCNETS’13), Barcelona, Spain, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "N. Saputro and K. Akkaya, “Performance Evaluation of Smart Grid Data Aggregation via Homomorphic Encryption”, in the Proceedings of IEEE Wireless Communications and Networking Conference (WCNC’12), Paris, France, Apr. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. Sherif, M. Ismail, M. Pazos-Revilla, M. Mahmoud, K. Akkaya, E. Serpedin, K. Qaraqe, “Privacy Preserving Power Charging Coordination Scheme in the Smart Grid”, Book Chapter in Transportation and Power Grid in Smart Cities: Communication Networks and Services, John Wiley, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "A. Uluagac, K. Akkaya, A. Mohan, M. Cintuglu, T. Youssef, O. Mohammed, D. Sullivan, “Wireless Infrastructure in Industrial Control Systems”, Book Chapter in Cybersecurity of Industrial Control Systems, edited by E. Colbert & A. Kott, Springer (in press, 23 pages).",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "K. Akkaya, A. Uluagac, A. Aydeger and A. Mohan, “Secure Software-Defined Networking Architectures for the Smart Grid”, Book Chapter in Smart Grid: Networking, Data Management, and Business Models, edited by H. Mouftah and Melike Erol-Kantarci, Taylor & Francis, 2016.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Digital Forensics": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "S. Mercan, M. Cebe, K. Akkaya, R. Aygun, and D. Danko, “Blockchain-based video forensics and integrity verification framework for wireless IoT devices”, Wiley Security and Privacy, Vol. 4, No. 2, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "M. Cebe, E. Erdin, K. Akkaya, H. Aksu and S. Uluagac, “Block4Forensic: An Integrated Lightweight Blockchain Framework for Forensics Applications of Connected Vehicles”, IEEE Communications Magazine, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "E. Flor, R. Aygun, S. Mercan and K. Akkaya, “PRNU-based Source Camera Identification for Multimedia Forensics”, in the Proceedings of IEEE International Conference on Information Reuse and Integration for Data Science (IRI), July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "S. Mercan, M. Cebe, E. Tekiner, K. Akkaya, M. Chang and S. Uluagac, “A Cost-efficient IoT Forensics Framework with Blockchain”, in the Proceedings of IEEE International Conference on Blockchain and Cryptocurrencies (ICBC’20), Sept. 2020",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "D. Danko, S. Mercan, M. Cebe and K. Akkaya, “Assuring the Integrity of Videos from Wireless-based IoT Devices using Blockchain”, in the Proceedings of REUNS Workshop 2019, Monterey, CA, Nov. 2019 (Best Paper Finalist).",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Veksler, Maryna, et al. “Video Origin Camera Identification using Ensemble CNNs of Positional Patches.” 2022 IEEE 5th International Conference on Multimedia Information Processing and Retrieval (MIPR). IEEE, 2022.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "U. Kocabiyik and K. Akkaya, “Digital Forensics for IoT and Sensor Networks”, Book Chapter in The Philosophy of Mission-oriented Wireless Sensor Networks, Springer (in press).",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "SDN/NFV": {
+        "publications": [
+            {
+                "year": 2019,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya, and S. Uluagac, “SDN-enabled recovery for Smart Grid teleprotection applications in post-disaster scenarios”, Journal of Network and Computer Applications, 138 (2019): 39-50",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya, “A moving target defense and network forensics framework for ISP networks using SDN and NFV”, Elsevier Future Generation Computer Systems, Volume 94, 2019, pp. 496-509, 2019.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Leon, Juan, Yacoub Hanna, and Kemal Akkaya. “Integration of WAVE and OpenFlow for Realization of SDN-based VANETs in ns-3.” Proceedings of the WNS3 2022. 2022. 41-48.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "J. Leon, O. Bautista, A. Aydeger, S. Mercan, and K. Akkaya “A General and Practical Framework for Realization of SDN-based Vehicular Networks”, in the Proceedings of International Performance Computing and Communications Conference (IPCCC), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "A. Aydeger, N. Saputro, and K. Akkaya. “Cloud-based Deception against Network Reconnaissance Attacks using SDN and NFV” in the Proceedings of IEEE 45th Conference on Local Computer Networks (LCN), pp. 279-285. IEEE, 2020.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. Aydeger, N. Saputro and K. Akkaya, “Utilizing NFV for Effective Moving Target Defense Against Link Flooding Reconnaissance Attacks”, in the Proceedings of IEEE MILCOM Conference 2018, Los Angeles, CA, 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya and S. Uluagac, “Assessing the Overhead of Authentication during SDN-Enabled Restoration of Smart Grid Inter-substation Communications”, in the Proceedings of IEEE Consumer and Communications Networking Conference (CCNC’18), Las Vegas, NV, Jan. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2017,
+                "fullText": "M. Nojoumian, A. Golchubian, N. Saputro and K. Akkaya “Preventing Collusion Between SDN Defenders and Attackers Using a Game Theoretical Approach”, in the Proceedings of INFOCOM SCAN Workshop 2017, Atlanta, GA, April 2017.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "A. Aydeger, N. Saputro, K. Akkaya and M. Rahman, “Mitigating Crossfire Attacks using SDN-based Moving Target Defense”, in the Proceedings of IEEE Local Computer Networks (LCN’16), Dubai, UAE, Oct. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "A. Aydeger, K. Akkaya, M. Cintuglu, A. Uluagac, and O. Mohammed, “Software Defined Networking for Resilient Communications in Smart Grid Active Distribution Networks”, in the Proceedings of IEEE International Conference on Communications (ICC’16), Kuala Lumpur, Malaysia, May 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "A. Aydeger, K. Akkaya, and A. Uluagac “SDN-based Resilience in Smart Grid”, in the Proceedings of IEEE NFV&SDN Conference Demos 2015, San Francisco, CA, Nov. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, A. S. Uluagac and A. Aydeger “Software Defined Networking for Wireless Local Networks in Smart Grid”, in the Proceedings of IEEE Local Computer Networks Workshops 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "K. Akkaya, A. Uluagac, A. Aydeger and A. Mohan, “Secure Software-Defined Networking Architectures for the Smart Grid”, Book Chapter in Smart Grid: Networking, Data Management, and Business Models, edited by H. Mouftah and Melike Erol-Kantarci, Taylor & Francis, 2016.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Smart City": {
+        "publications": [
+            {
+                "year": 2017,
+                "fullText": "H. Menour, I. Guvenc, K. Akkaya, S. Uluagac, A. Kadri and A. Tuncer, “UAV- Enabled Intelligent Transportation Systems for the Smart City: Applications and Challenges”, IEEE Communications Magazine, Vol. 55, No.3, pp. 22-28, March 2017.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "L. Pusche, L. Babun, A. Aris, K. Akkaya and S. Uluagac, “(In)secure Practices of Enterprise IoT Systems in Smart Buildings”, in the Proceedings of International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (Buildsys ’20), 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "Amiri, Wesam Al, Mohamed Baza, Karim Banawan, Mohamed Mahmoud, Waleed Alasmary, and K. Akkaya, “Privacy-Preserving Smart Parking System Using Blockchain and Private Information Retrieval”, in the Proceedings of International Conference on Smart Applications, Communications and Networking (SmartNets’2020), 2020 (Best Paper Award).",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "K. Akkaya, V. Baboolal, N. Saputro, S. Uluagac and H. Menouar, “Privacy-preserving Control of Video Transmissions for Drone-based Intelligent Transportation Systems”, in the Proceedings of IEEE CNS Workshop on CPS Security, Washington, DC, June 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "N. Saputro, K. Akkaya and S. Uluagac, “Supporting Seamless Connectivity in Drone-assisted Intelligent Transportation Systems”, in the Proceedings of IEEE LCN Workshops 2018, Chicago, IL, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "H. Binol, I. Guvenc and K. Akkaya, “Time Optimal Multi-UAV Path Planning for Gathering ITS Data from Roadside Units”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "N. Saputro, K. Akkaya, R. Algin and S. Uluagac, “Drone-assisted Multi-purpose Roadside Units for Intelligent Transportation Systems”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "A. K. Sikder, A. Acar, H. Aksu, A. S. Uluagac, K. Akkaya and M. Conti, “IoT-enabled smart lighting systems for smart cities,” 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, 2018, pp. 639-645.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "K. Rabieh, K. Akkaya, U. Karabiyik and J. Qamriddin, “A Secure and Cloud-based Medical Records Access Scheme for on-Road Emergencies”, in the Proceedings of IEEE Consumer and Communications Networking Conference (CCNC’18), Las Vegas, NV, Jan. 2018.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "E. Vattabparamban, I. Guvenc, A. Yurekli, K. Akkaya and S. Uluagac, “Drones for Smart Cities: Issues in Cybersecurity, Privacy, and Public Safety”, in the Proceedings of International Wireless Communications and Mobile Computing Conference (IWCMC’16), (in press, 6 pages).",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "E. Vattapparamban, B. Çiftler, İ. Güvenç, K. Akkaya and A. Kadri, “Indoor occupancy tracking in smart buildings using passive sniffing of probe requests,” in the Proceedings of IEEE International Conference on Communications Workshops (ICC), Kuala Lumpur, Malaysia, May 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "K. Akkaya, I. Guvenc, R. Aygun, N. Pala and A. Kadri “IoT-based Occupancy Monitoring Techniques for Energy-Efficient Smart Buildings”, in the Proceedings of IEEE WCNC Workshops, New Orleans, LA, April 2015.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "N. Saputro, K. Akkaya and A. Uluagac, “Privacy-preservation for IoT used in Smart Buildings”, Book Chapter in Security and Privacy in Internet of Things (IoTs): Models, Algorithms, and Implementations, edited by Fei Hu, Taylor & Francis, 2016.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Drones": {
+        "publications": [
+            {
+                "year": 2017,
+                "fullText": "H. Menour, I. Guvenc, K. Akkaya, S. Uluagac, A. Kadri and A. Tuncer, “UAV- Enabled Intelligent Transportation Systems for the Smart City: Applications and Challenges”, IEEE Communications Magazine, Vol. 55, No.3, pp. 22-28, March 2017.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "M. A. Abdel-Malek, N. Saputro, A. Ibrahim, K. Akkaya, “UAV-Assisted Multi-path Parallel Routing for mmWave-Based Wireless Networks, Elsevier Internet of Things Journal, Vol. 14, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "O. Bautista, K. Akkaya, S. Uluagac, “Customized novel routing metrics for wireless mesh-based swarm-of-drones applications”, Elsevier Internet of Things Journal, Vol. 11, 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Abdelmalek, A. Ibrahim, M. Mokhtar and K. Akkaya, “UAV Positioning for Out-of-Band Integrated Access and Backhaul Millimeter Wave Network”, Elsevier Physical Communications Journal, Vol. 35, 2019.",
+                "div": {}
+            },
+            {
+                "year": 5749,
+                "fullText": "Abdel-Malek, Mai A., et al. “A proxy Signature-Based swarm drone authentication with leader selection in 5G networks.” IEEE Access 10 (2022): 57485-57498.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "M. Abdelmalek, K. Akkaya, A. Bhuyan and A. Ibrahim, “A Proxy Signature-Based Drone Authentication in 5G D2D Networks, in the Proceedings of IEEE Vehicular Technology Conference (VTC), Spring 2021, April 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Abdelmalek, K. Akkaya, A. Bhuyan and A. Ibrahim, “Enabling Second Factor Authentication for Drones in 5G using Network Slicing” in the Proceedings of IEEE GLOBECOM Workshop on 5G and Beyond Security (Wireless-Sec’20), Dec. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Abdelmalek, K. Akkaya, N. Saputro and A. Ibrahim, “Efficient Authentication of Drones to mmWave Wireless Mesh Networks in Post-Disaster Scenarios”, in the Proceedings of IEEE GLOBECOM’20 Conference, Dec. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Rahman, T. Rahman, M. Kisacikoglu, and K. Akkaya, “Hardware-Enabled Intrusion Detection for Power Electronics Security in Unmanned Aerial Vehicles”, in the Proceedings of IEEE Workshop on Cybersecurity of Power Electronics Systems (CyberPELS), Aug. 2020.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "K. Rabieh, S. Mercan, K. Akkaya, Vashish Baboolal and R. Aygun, “Privacy-Preserving and Efficient Sharing of Drone Videos in Public Safety Scenarios using Proxy Re-encryption”, in the Proceedings of IEEE International Conference on Information Reuse and Integration (IRI’20), Aug. 2020 (invited paper).",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "O. Bautista Chia and K. Akkaya, “Extending IEEE 802.11s Mesh Routing for 3-D Mobile Drone Applications in NS-3”, in the Proceedings of Workshop on ns-3 (WNS3’20), May 2020.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "Oscar Bautista, K. Akkaya and S. Uluagac, “A Novel Routing Metric for IEEE 802.11s-based Swarm-of-Drones Applications”, in the Proceedings of International Conference on Mobile and Ubiquitous Systems Workshops, Dallas, TX, Sept. 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "H. Binol, I. Guvenc and K. Akkaya, “Time Optimal Multi-UAV Path Planning for Gathering ITS Data from Roadside Units”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "N. Saputro, K. Akkaya, R. Algin and S. Uluagac, “Drone-assisted Multi-purpose Roadside Units for Intelligent Transportation Systems”, in the Proceedings of IEEE VTC Conference 2018, Chicago, IL, Aug. 2018.",
+                "div": {}
+            },
+            {
+                "year": null,
+                "fullText": "E. Vattabparamban, I. Guvenc, A. Yurekli, K. Akkaya and S. Uluagac, “Drones for Smart Cities: Issues in Cybersecurity, Privacy, and Public Safety”, in the Proceedings of International Wireless Communications and Mobile Computing Conference (IWCMC’16), (in press, 6 pages).",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "K. Akkaya, V. Baboolal, N. Saputro, S. Uluagac and H. Menouar, “Privacy-preserving Control of Video Transmissions for Drone-based Intelligent Transportation Systems”, in the Proceedings of IEEE CNS Workshop on CPS Security, Washington, DC, June 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "M. Abdelmalek, N. Saputro, K. Akkaya and A. Ibrahim, “UAV-assisted Secure Routing for Millimeter Wave Wireless Mesh Networks”, in the Proceedings of 3rd Workshop for Women in Hardware and Systems Security (WISE), McLean, VA, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "V. Baboolal, K. Akkaya, N. Saputro and K. Rabieh, “Preserving Privacy of Drone Videos using Proxy Re-encryption Technique” short paper in the Proceedings of ACM Wireless and Mobile Security Conference 2019, Miami Beach, FL, May 2019.",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "N. Saputro, K. Akkaya and S. Uluagac, “Supporting Seamless Connectivity in Drone-assisted Intelligent Transportation Systems”, in the Proceedings of IEEE LCN Workshops 2018, Chicago, IL, Oct. 2018.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Veksler, Maryna, et al. “LoFin: LoRa-based UAV Fingerprinting Framework.” MILCOM 2022-2022 IEEE Military Communications Conference (MILCOM). IEEE, 2022.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Multimedia": {
+        "publications": [
+            {
+                "year": 2015,
+                "fullText": "P. Sarisaray and K. Akkaya, “Performance comparison of data reduction techniques for Wireless Multimedia Sensor Network applications”, International Journal of Distributed Sensor Networks, Vol. 11, No. 8, 2015.",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "H. Oztarak, K. Akkaya, A. Yazici and P. Sarisaray, “Efficient Active Rule Processing in Wireless Multimedia Sensor Networks”, Int. Journal of Ad Hoc and Ubiquitous Networks, Vol. 21, no.1, pp. 64-77, 2016.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "E. Yildiz, K. Akkaya, E. Sisikoglu and M. Sir, “Optimal Camera Placement for Providing Angular Coverage in Wireless Video Sensor Networks”, IEEE Transactions on Computers, Vol. 63, No. 7, pp. 1812-1825, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "H. Oztarak, K. Akkaya and A. Yazici, “Efficient Tracking of Multiple Objects in Wireless Multimedia Sensor Networks” Ad Hoc & Sensor Wireless Networks, Volume 19, Number 3-4, pp. 241-276, 2013.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "A. Newell and K. Akkaya, “Distributed Collaborative Camera Actuation for Redundant Data Elimination in Wireless Multimedia Sensor Networks”, Elsevier Ad Hoc Networks Journal Special Issue on Wireless Multimedia Sensor Networks, Vol. 9, No. 4, pp. 514-527, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "E. Flor, R. Aygun, S. Mercan and K. Akkaya, “PRNU-based Source Camera Identification for Multimedia Forensics”, in the Proceedings of IEEE International Conference on Information Reuse and Integration for Data Science (IRI), July 2021.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "K. Rabieh, S. Mercan, K. Akkaya, Vashish Baboolal and R. Aygun, “Privacy-Preserving and Efficient Sharing of Drone Videos in Public Safety Scenarios using Proxy Re-encryption”, in the Proceedings of IEEE International Conference on Information Reuse and Integration (IRI’20), Aug. 2020 (invited paper).",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "D. Danko, S. Mercan, M. Cebe and K. Akkaya, “Assuring the Integrity of Videos from Wireless-based IoT Devices using Blockchain”, in the Proceedings of REUNS Workshop 2019, Monterey, CA, Nov. 2019 (Best Paper Finalist).",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "B. Gonen, K. Akkaya and F. Senel, “Efficient Camera Selection for Maximized Target Coverage in Underwater Acoustic Sensor Networks”, in the Proceedings of IEEE Local Computer Networks Conference 2015, Clearwater, FL, Oct. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "P. Boluk and K. Akkaya, “Performance Evaluation of Background Subtraction Algorithms for Android Devices Deployed in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE IWCMC 2014, Nicosia, Cyprus, Aug. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "H. Oztarak, T. Yilmaz, K. Akkaya and A. Yazici, “Efficient and Accurate Object Classification in Wireless Multimedia Sensor Networks”, in the Proceedings of 21st IEEE International Conference on Computer Communications and Networks (ICCCN’12), Munich, Germany, July 2012.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "H. Oztarak, K. Akkaya and A. Yazici,“Providing Automated Actions in Wireless Multimedia Sensor Networks via Active Rules”, in the Proceedings of 26th Inter- national Symposium on Computer and Information Sciences, London, UK, Sept. 2011.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "E. Yildiz, K. Akkaya, E. Sisikoglu, M. Sir, and I. Guneydas,“Camera Deployment for Video Panorama Generation in Wireless Visual Sensor Networks”, in the Proceedings of International Workshop on Video Panorama in conjunction with IEEE Symposium on Multimedia (ISM’11), Dana Point, CA, USA, Dec. 2011.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "E. Yildiz, K. Akkaya, E. Sisikoglu, and M. Sir, “An Exact Algorithm for Providing Multi-Perspective Event Coverage in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE International Wireless Communications and Mobile Computing Conference (IWCMC), Istanbul, Turkey, July 2011.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "A. Newell, K. Akkaya and E. Yildiz, “Providing Multi-perspective Event Coverage in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE Local Computer Networks (LCN’10), Denver, CO, Oct. 2010.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "H. Oztarak, K. Akkaya and A. Yazici, “Lightweight Object Localization with a Single Camera in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE Global Telecommunications Conference (GLOBECOM’09), Hawaii, USA, Dec. 2009.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "A. Newell and K. Akkaya, “Self-Actuation of Cameras for Redundant Data Elimination in Wireless Multimedia Sensor Networks”, in the Proceedings of International Conference on Communications (ICC’09), Dresden, Germany, June 2009.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Node Placement": {
+        "publications": [
+            {
+                "year": 2015,
+                "fullText": "F. Senel, K. Akkaya, M. Kantarci and T. Yilmaz, “Self-deployment of Mobile Underwater Acoustic Sensor Networks for Maximized Coverage and Guaranteed Connectivity”, Elsevier Ad Hoc Networks, Volume 34, November 2015, Pages 170–183.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "M. Younis, I. Senturk, K. Akkaya, S. Lee, and F. Senel, “Topology Management Techniques for Tolerating Node Failures in Wireless Sensor Networks: A Survey”, Elsevier Computer Networks, Volume 58, pp. 254-283, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "I. Senturk, K. Akkaya and S. Yilmaz, “Relay Placement for Restoring Connectivity in Partitioned Wireless Sensor Networks under Limited Information”, Elsevier Ad Hoc Networks, Volume 13, Part B, pp. 487-503, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "E. Yildiz, K. Akkaya, E. Sisikoglu and M. Sir, “Optimal Camera Placement for Providing Angular Coverage in Wireless Video Sensor Networks”, IEEE Transactions on Computers, Vol. 63, No. 7, pp. 1812-1825, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "F. Senel, M. Younis and K. Akkaya, “Bio-inspired Relay Node Placement Heuristics for Repairing Damaged Wireless Sensor Networks”, IEEE Transactions on Vehicular Technology, Vol. 60, No. 4, pp. 1835-1848, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "K. Akkaya, I. Guneydas and A. Bicak, “Autonomous Actor Positioning in Wireless Sensor and Actor Networks using Stable-Matching”, International Journal of Parallel, Emergent and Distributed Systems (IJPEDS) Vol. 25, No. 6, pp. 439 – 464, 2010.",
+                "div": {}
+            },
+            {
+                "year": 1244,
+                "fullText": "K. Akkaya and A. Newell, “Self-deployment of sensors for maximized coverage in underwater acoustic sensor networks”, Elsevier Computer Communications Journal, vol. 32, no. 7, 2009, pp. 1233-1244.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "K. Akkaya, F. Senel and B. Mclaughlan, “Clustering of Wireless Sensor and Actor Networks based on Sensor Distribution and Connectivity”, Elsevier Journal of Parallel and Distributed Computing, vol. 69, no. 6, 2009, pp. 573-587.",
+                "div": {}
+            },
+            {
+                "year": 2796,
+                "fullText": "K. Akkaya and S. Janapala, “Maximizing Connected Coverage via Controlled Actor Relocation in Wireless Sensor and Actor Networks”, Elsevier Computer Networks Journal, Vol. 52, Issue 14, 2008, pp. 2779-2796.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "K. Akkaya and M. Younis, “Coverage and Latency aware Actor Placement Mechanisms for Wireless Sensor and Actor Networks”, International Journal of Sensor Networks, Vol. 3, No. 3, 2008.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "M. Younis and K. Akkaya, “Strategies and Techniques for Node Placement in Wireless Sensor Networks: A Survey”, Elsevier Ad Hoc Network Journal, Vol. 6 No. 4, pp. 621-655, 2008.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "K. Akkaya, M. Younis and W. Youssef, “Positioning of Base-Stations in Wireless Sensor Networks”, IEEE Communications, Vol. 45, No. 4, pp. 96-102, April 2007.",
+                "div": {}
+            },
+            {
+                "year": 2005,
+                "fullText": "K. Akkaya and M. Younis, “Sink Repositioning for Enhanced Performance in Wireless Sensor Networks”, Elsevier Computer Networks Journal, Vol. 49/4, pp. 512-534, 2005.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "G. Solmaz, K. Akkaya and Damla Turgut, “Communication-constrained p-Center Problem for Event Coverage in Theme Parks”, in the Proceedings of IEEE Global Communications Conference (GLOBECOM’14), Austin, TX, Dec. 2014.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "F. Senel, K. Akkaya and T. Yilmaz, “Autonomous Deployment of Sensors for Maximized Coverage and Guaranteed Connectivity in Underwater Acoustic Sensor Networks”, in the Proceedings of IEEE LCN 2013, Sydney, Australia, Oct. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "I. Senturk and K. Akkaya, “Energy and Coverage Trade-offs in Deploying a Mix of Mobile and Stationary Relays for Disjoint Wireless Sensor Networks”, in the Proceedings of IEEE Global Communications Conference 2013 (GLOBECOM’13), Atlanta, GA, Dec. 2013.",
+                "div": {}
+            },
+            {
+                "year": 2013,
+                "fullText": "I. Senturk, K. Akkaya, F. Senel and M. Younis, “Connectivity Restoration in Disjoint Wireless Sensor Networks using Limited Number of Mobile Relays”, in the Proceedings of IEEE ICC’13, Budapest, Hungary, June 2013.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "Senturk, K. Akkaya and S. Yilmaz, “Distributed Relay Node Positioning for Connectivity Restoration in Partitioned Wireless Sensor Networks”, in the Proceedings of IEEE International Symposium and Computers and Communications (ISCC’12), Cappadocia, Turkey, July 2012.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "E. Yildiz, K. Akkaya, E. Sisikoglu, and M. Sir, “An Exact Algorithm for Providing Multi-Perspective Event Coverage in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE International Wireless Communications and Mobile Computing Conference (IWCMC), Istanbul, Turkey, July 2011.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "A. Newell, K. Akkaya and E. Yildiz, “Providing Multi-perspective Event Coverage in Wireless Multimedia Sensor Networks”, in the Proceedings of IEEE Local Computer Networks (LCN’10), Denver, CO, Oct. 2010.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "F. Senel, M. Younis and K. Akkaya, “A Robust Relay Node Placement Heuristic for Structurally Damaged Wireless Sensor Networks”, in the Proceedings of IEEE Local Computer Networks (LCN’09), Zurich, Switzerland, Oct. 2009.",
+                "div": {}
+            },
+            {
+                "year": 2009,
+                "fullText": "I. Guneydas, K. Akkaya and A. Bicak, “Actor Positioning in Wireless Sensor and Actor Networks Using Matching Theory”, in the Proceedings of International Workshop on Wireless Ad hoc and Sensor Networking (WWSAN’09), in conjunction with ICDCS’09, Montreal, Canada, June 2009.",
+                "div": {}
+            },
+            {
+                "year": 2007,
+                "fullText": "K. Akkaya and M. Younis, “C2AP: Coverage-aware and Connectivity Con- strained Actor Positioning in Wireless Sensor and Actor Networks”, in the Proceedings of IEEE International Performance Computing and Communications Conference (IPCCC’07), New Orleans, LA, April 2007.",
+                "div": {}
+            },
+            {
+                "year": 2006,
+                "fullText": "K. Akkaya and M. Younis, “COLA: A Coverage and Latency aware Actor Placement for Wireless Sensor and Actor Networks”, in the Proceedings of IEEE Vehicular Technology Conference (VTC’06), Montreal, CA, Sept. 2006.",
+                "div": {}
+            },
+            {
+                "year": 2003,
+                "fullText": "M. Younis, M. Bangad and K. Akkaya, “Base-Station Repositioning For Optimized Performance of Sensor Networks”, in the Proceedings of the IEEE VTC 2003 – Wireless Ad hoc, Sensor, and Wearable Networks, Orlando, Florida, Oct. 2003.",
+                "div": {}
+            },
+            {
+                "year": 2014,
+                "fullText": "M. Younis, S. Lee, I. Senturk and K. Akkaya, “Topology Management Techniques for Tolerating Node Failure in WSNs”, Book Chapter, The Art of Wireless Sensor Networks: Fundamentals I, Ed. Habib Ammari, Springer, 2014.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "M. Younis and K. Akkaya “Node Positioning for Increased Dependability of Wireless Sensor Networks”, Book Chapter, Algorithms and Protocols for Wireless Sensor Networks, Ed. A. Boukerche, Wiley & Sons, New Jersey, pp. 225-266, 2008.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "VANETs": {
+        "publications": [
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Group-based Hybrid Authentication Scheme for Cooperative Collision Warnings in VANETs”, Wiley Security and Communication Networks Journal, Vol. 4, No. 12, pp. 1469-1482, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2011,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “A Survey of Authentication Schemes for Vehicular Ad Hoc Networks”, Wiley Security and Communication Networks Journal, Vol. 4, No. 10, pp. 1137-1152, 2011.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Leon, Juan, Yacoub Hanna, and Kemal Akkaya. “Integration of WAVE and OpenFlow for Realization of SDN-based VANETs in ns-3.” Proceedings of the WNS3 2022. 2022. 41-48.",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "J. Leon, O. Bautista, A. Aydeger, S. Mercan, and K. Akkaya “A General and Practical Framework for Realization of SDN-based Vehicular Networks”, in the Proceedings of International Performance Computing and Communications Conference (IPCCC), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "M. Riley, K. Akkaya and K. Fong, “Delay-Efficient Geodynamic Group-Based Authentication in VANETs”, in the Proceedings of IEEE Local Computer Networks (LCN’10), short paper, Denver, CO, Oct. 2010.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Leon, Juan, Yacoub Hanna, and Kemal Akkaya. “Integration of WAVE and OpenFlow for Realization of SDN-based VANETs in ns-3.” Proceedings of the 2022 Workshop on ns-3. 2022.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Data Science/Management": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "K. Akkaya, A. Madanayake, U. D. Silva, S. Pulipati, J. M. Jornet, K. Chowdhury, F. Restuccia, T. Melodia, S. Mandal, J. Shea, A. Dhananjay, J. Dawani, V. Dimitrov, “AI in 6G Wireless Communication Networks” chapter in Re-Work Inc. white paper titled “The Challenges, Successes, Progression & Failures of Processing in AI”, 2021.",
+                "div": {}
+            },
+            {
+                "year": 2010,
+                "fullText": "R. S. Aygun, Y. Ma, K. Akkaya, G. Cox and A. Bicak, “A Conceptual Model for Data Management and Distribution in Peer-to-Peer Systems”, Springer Peer-to- Peer Networking and Applications Journal Vol. 3, No. 4, pp. 294-322, 2010.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "M. Baza, A Salazar, M. Mahmoud, M. Abdallah and K. Akkaya, “On Sharing Models Instead of Data Using Mimic Learning for Smart Health Applications”, in the Proceedings of IEEE International Conference on Informatics, IoT, and Enabling Technologies (ICIoT), 2020.",
+                "div": {}
+            },
+            {
+                "year": 1146,
+                "fullText": "K. Akkaya and I. Ari, “In-network Data Aggregation in Wireless Sensor Networks”, Book Chapter, Handbook of Computer Networks, Ed. H. Bidgoli, John Wiley & Sons, Vol. 2, 2007, pp. 1131-1146.",
+                "div": {}
+            },
+            {
+                "year": 2001,
+                "fullText": "K. Akkaya and A. Yazici, “A Multi-dimensional Index Structure for Fuzzy Spatial Databases”, in the Proceedings of IFSA-2001, Vancouver, Canada, July 2001.",
+                "div": {}
+            },
+            {
+                "year": 1999,
+                "fullText": "K. Akkaya and A. Yazici, “An Indexing Method for Spatial Databases”, in the Proceedings of 17th International Symposium on Computer and Information Systems (ISCIS’99), Kusadasi, Turkey, 1999.",
+                "div": {}
+            },
+            {
+                "year": 2000,
+                "fullText": "A. Yazici and K. Akkaya, “Conceptual Design of GIS (Geographic Information Systems) applications”, Book Chapter, Recent Research Issues on the Management of Fuzziness in Databases, edited by G. Bordogna and G. Pasi, Physica- Verlag, Heidelberg and New York, 2000.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Secure Computation": {
+        "publications": [
+            {
+                "year": 2021,
+                "fullText": "O. Bautista, K. Akkaya and S. Homsi, “Outsourcing Secure MPC to Untrusted Cloud Environments with Correctness Verification”, in the Proceedings of IEEE Local Computer Networks (LCN’21), Oct. 2021.",
+                "div": {}
+            },
+            {
+                "year": 2019,
+                "fullText": "A. Quijano and K. Akkaya, “Server-side Fingerprint-Based Indoor Localization Using Encrypted Sorting” in the Proceedings of REUNS Workshop 2019, Monterey, CA, Nov. 2019",
+                "div": {}
+            },
+            {
+                "year": 2016,
+                "fullText": "S. Tonyali, K. Akkaya, N. Saputro and A. Selcuk Uluagac, “A Reliable Data Aggregation Mechanism with Homomorphic Encryption in Smart Grid AMI Networks”, Proceedings of IEEE Consumer Communications and Networking Conference (CCNC), Las Vegas, NV, Jan. 2016.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "S. Tonyali, K. Akkaya and N. Saputro, “Assessing the Feasibility of Fully Homomorphic Encryption for Smart Grid AMI Networks”, in the Proceedings of International Conference on Ubiquitous and Future Networks, Sapporo, Japan, July 2015.",
+                "div": {}
+            },
+            {
+                "year": 2015,
+                "fullText": "S. Krishnamachari, M. Nojoumian and K. Akkaya, “Implementation and Analysis of Dutch-Style Sealed-Bid Auctions: Computational vs Unconditional Security”, in the Proceedings International Conference on Information Systems Security and Privacy (ICISSP), Loure Valley, France, Feb. 2015.",
+                "div": {}
+            },
+            {
+                "year": 2012,
+                "fullText": "N. Saputro and K. Akkaya, “Performance Evaluation of Smart Grid Data Aggregation via Homomorphic Encryption”, in the Proceedings of IEEE Wireless Communications and Networking Conference (WCNC’12), Paris, France, Apr. 2012.",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "K. Akkaya, “Curriculum Design Requirements and Challenges for the First Bachelor’s Degree on IoT in the US”, Book Chapter in Internet of Things. A Confluence of Many Disciplines, Editors: Casaca, A., Katkoori, S., Ray, S., Strous, Springer, 2020.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Education": {
+        "publications": [
+            {
+                "year": 2019,
+                "fullText": "K. Akkaya, “Curriculum Design Requirements and Challenges for the First Bachelor’s Degree on IoT in the US”, in the Proceedings of IFIP International Conference on IoT, Tampa, FL, Nov. 2019.",
+                "div": {}
+            },
+            {
+                "year": 1005,
+                "fullText": "Leon, Juan, et al. “SDN-enabled vehicular networks: Theory and practice within platooning applications.” Vehicular Communications 39 (2023): 100545.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    },
+    "Miscellaneous": {
+        "publications": [
+            {
+                "year": 2008,
+                "fullText": "K. Akkaya, “Relocation of Base-Station for Jamming Attack Avoidance in Wireless Sensor Networks”, Technical Report, TR-08-01, Department of Computer Science, Southern Illinois University Carbondale, 2008.",
+                "div": {}
+            },
+            {
+                "year": 2008,
+                "fullText": "A. Newell and K. Akkaya, “Implementation Experiences with Motes and TinyDB in a Greenhouse Monitoring Application”, Technical Report, TR-08-02, Department of Computer Science, Southern Illinois University Carbondale, 2008.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "“Systems and Methods for Authentication and Key Agreement in a Smart Grid” by Mumin Cebe and Kemal Akkaya, May 10, 2022, US 11,329,806 B1",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "“Systems and Methods for Distributed Authentication of Devices”, by Kemal Akkaya, Arup Bhuyan, and Mai AM Abdelmalek Mar. 22, 2022, US 11,284,255 B1",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "“Systems and methods for inhibiting threats to a computing environment”, by Kyle Denney, Selcuk Uluagac, Enes Erdin, Leanorda Babun, and Kemal Akkaya, Sept. 28, 2021, US 11,132,441 B2",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "“Cost-efficient IoT Forensics Framework with Blockchain” by Michael Thompson, Suat Mercan, Kemal Akkaya, Mumin Cebe, and Selcuk Uluagac, Sept. 21, 2021, US 11,128,463 B1",
+                "div": {}
+            },
+            {
+                "year": 2021,
+                "fullText": "“Systems and methods for monitoring activity in an HDMI Network” by Luis Pusche, Leanorda Babun, Kemal Akkaya, and Selcuk Uluagac, Feb. 23, 2021, US 10,929,530 B1",
+                "div": {}
+            },
+            {
+                "year": 2020,
+                "fullText": "“Systems and Methods for Revocation Management in an AMI network”, by Mumin Cebe and Kemal Akkaya, Nov. 24, 2020, US 10,848,481 B1",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "“Method for Continuous User Authentication with Wearables”, by Abbas Acar, Hidayet Aksu, Kemal Akkaya, and Selcuk Uluagac, Sept. 11, 2018, US 10,075,846 B1",
+                "div": {}
+            },
+            {
+                "year": 2018,
+                "fullText": "“Inducing Data Loss via Handshakes in Zigbee Networks” by Spencer Michaels, Kemal Akkaya, and Selcuk Uluagac, July 10, 2018, US 10,021,135 B1",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Akkaya, Kemal, and Mumin Cebe. “Systems and methods for authentication and key agreement in a smart grid.” U.S. Patent No. 11,329,806. 10 May 2022.",
+                "div": {}
+            },
+            {
+                "year": 2022,
+                "fullText": "Akkaya, Kemal, Arupjyoti Bhuyan, and Mai AM Abdelmalek. “Systems and methods for distributed authentication of devices.” U.S. Patent No. 11,284,255. 22 Mar. 2022.",
+                "div": {}
+            }
+        ],
+        "div": {}
+    }
+}
