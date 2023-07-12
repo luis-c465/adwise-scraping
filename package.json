@@ -1,0 +1,27 @@
+{
+    "name": "adwise-scraping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "@types/bluebird": "^3.5.38",
+        "bluebird": "^3.7.2",
+        "camelcase": "^7.0.1",
+        "citation-js": "^0.6.8",
+        "nanoid": "^4.0.2",
+        "nodemon": "^3.0.1",
+        "p-map": "^6.0.0",
+        "puppeteer": "^20.8.0",
+        "short-unique-id": "^4.4.4",
+        "ts-node": "^10.9.1"
+    }
+}
