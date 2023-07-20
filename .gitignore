@@ -207,3 +207,6 @@ data/*
 tmp/
 
 !.gitkeep
+/test-results/
+/playwright-report/
+/playwright/.cache/

@@ -1,21 +1,13 @@
 {
-    "compilerOptions": {
-        "module": "ES2022",
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "target": "ESNext",
-        "noImplicitAny": true,
-        "moduleResolution": "NodeNext",
-        "sourceMap": true,
-        "outDir": "dist",
-        "baseUrl": ".",
-        "lib": ["DOM", "ESNext"],
-        "paths": {
-            "*": ["node_modules/*"]
-        },
-    },
-    "ts-node": {
-        "esm": true
-    },
-    "include": ["*.ts"]
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["ES2023", "DOM"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
 }
