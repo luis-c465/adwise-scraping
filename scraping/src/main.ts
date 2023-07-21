@@ -4,16 +4,17 @@ import { Presets, SingleBar } from "cli-progress";
 import { promises as fs } from "fs";
 import { random } from "lodash";
 import { firefox } from "playwright";
+import * as pubData from "./assets/pub.json";
 import { getBibtex } from "./bibtex";
 import getResult from "./result";
-import { PubData, addTags } from "./tags";
+import { addTags } from "./tags";
 import getUrlsAndStats from "./urls";
 import { wait } from "./util";
 
-const BASEURL =
+export const BASEURL =
   "https://scholar.google.com/citations?hl=en&user=63HyXSkAAAAJ&pagesize=100&view_op=list_works&sortby=pubdate&cstart=0";
 
-main();
+// main();
 
 async function main() {
   const progressBar = new SingleBar(
@@ -25,11 +26,11 @@ async function main() {
     Presets.shades_classic
   );
 
-  const pubData: PubData = JSON.parse(
-    await fs.readFile("./assets/pub.json", {
-      encoding: "utf-8",
-    })
-  );
+  // const pubData: PubData = JSON.parse(
+  //   await fs.readFile("./assets/pub.json", {
+  //     encoding: "utf-8",
+  //   })
+  // );
 
   const browser = await firefox.launch();
   let context = await browser.newContext();
