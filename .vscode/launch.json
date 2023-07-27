@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "Run cli",
+      "request": "launch",
+      "command": "pnpm run run",
+      "cwd": "${workspaceFolder}/cli"
+    }
+  ]
+}

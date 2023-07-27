@@ -1,0 +1,11 @@
+data2/
+data/*
+!data/.gitkeep
+tmp/
+
+!.gitkeep
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.turbo
+isolate/

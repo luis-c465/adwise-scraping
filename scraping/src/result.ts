@@ -1,5 +1,5 @@
-import type { PageArgs } from "./types";
-import { normalizeString } from "./util";
+import type { Browser } from "puppeteer";
+import { withPage } from "./util";
 
 export type Result = {
   title: string;
@@ -20,6 +20,7 @@ export type Result = {
     }
   | {
       authors: string[];
+      conference: string;
     }
   | {
       journal: string;
@@ -28,48 +29,50 @@ export type Result = {
     }
 );
 
-export default async function getResult(
-  url: string,
-  { context }: PageArgs
-): Promise<Result> {
-  const page = await context.newPage();
-  await page.goto(url);
+export const getResult = (url: string, browser: Browser) =>
+  withPage(browser, async (page) => {
+    await page.goto(url);
+    console.info(
+      `Scraping ${url}`,
+      await page.evaluate(() => document.body.innerHTML)
+    );
 
-  if ((await page.getByText("detected unusual traffic").count()) > 0) {
-    console.log(await page.content());
-  }
+    const [title, linkUrl] = await page.$eval(
+      "a.gsc_oci_title_link",
+      (el: HTMLAnchorElement) => [el.textContent, el.href]
+    );
 
-  const titleElm = await page.$("a.gsc_oci_title_link");
-  const title = await titleElm.textContent();
-  const linkUrl = await titleElm.getAttribute("href");
+    const tableInfoElms = (await page.$$("#gsc_oci_table .gs_scl")).filter(
+      (elm) =>
+        elm.evaluate(
+          (el) =>
+            !el.textContent &&
+            !el.textContent.includes("Total citations") &&
+            !el.textContent.includes("Scholar articles")
+        )
+    );
 
-  const tableInfoElms = page
-    .locator("#gsc_oci_table .gs_scl")
-    .filter({ hasNotText: "Total citations" })
-    .filter({ hasNotText: "Scholar articles" });
+    const tableInfo = await Promise.all(
+      tableInfoElms.map(async (e) => [
+        await e.$eval(".gsc_oci_field", (el) =>
+          el.textContent
+            .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
+              index === 0 ? word.toLowerCase() : word.toUpperCase()
+            )
+            .replace(/\s+/g, "")
+        ),
+        await e.$eval(".gsc_oci_value", (el) => el.textContent),
+      ])
+    );
 
-  const tableInfo = await tableInfoElms.evaluateAll((elms) =>
-    elms.map((e) => [
-      e.querySelector(".gsc_oci_field").textContent,
-      e.querySelector(".gsc_oci_value").textContent,
-    ])
-  );
+    const obj = Object.fromEntries(tableInfo);
 
-  const normalizedInfo = tableInfo.map(([key, value]) => [
-    normalizeString(key),
-    value,
-  ]);
-
-  const obj = Object.fromEntries(normalizedInfo);
-
-  await page.close();
-
-  return {
-    ...obj,
-    title,
-    url: linkUrl,
-    scholarUrl: url,
-    year: obj.publicationDate ? obj?.publicationDate?.split("/")[0] : null,
-    authors: obj.authors ? obj?.authors?.split(",") : null,
-  } as Result;
-}
+    return {
+      ...obj,
+      title,
+      url: linkUrl,
+      scholarUrl: url,
+      year: obj.publicationDate ? obj?.publicationDate?.split("/")[0] : null,
+      authors: obj.authors ? obj?.authors?.split(",") : null,
+    } as Result;
+  });

@@ -1,6 +1,5 @@
-import { random } from "lodash";
-import type { PageArgs } from "./types.js";
-import { wait } from "./util.js";
+import { Browser } from "puppeteer";
+import { wait, withPage } from "./util.js";
 
 export type PersonData = {
   citations: number;
@@ -11,40 +10,36 @@ export type PersonData = {
 /**
  * Gets the urls from a google scholar citations page
  */
-export default async function getUrlsAndStats(
-  url: string,
-  { context }: PageArgs
-) {
-  await context.newPage();
-  const page = await context.newPage();
-  await page.goto(url);
+export const getUrlsAndStats = (url: string, browser: Browser) =>
+  withPage(browser, async (page) => {
+    await page.goto(url);
+    console.log(await page.evaluate(() => document.body.innerHTML));
 
-  while (true) {
-    const showMoreBtn = page.locator("#gsc_bpf_more");
-    const isDisabled = await showMoreBtn.isDisabled();
-    if (!isDisabled) {
-      await showMoreBtn.click();
-      await wait(random(700, 1500));
-    } else {
-      break;
+    while (true) {
+      const showMoreBtn = await page.$("#gsc_bpf_more:not([disabled])");
+      if (showMoreBtn) {
+        await showMoreBtn.click();
+        await wait(1000);
+      } else {
+        break;
+      }
     }
-  }
 
-  const stats = await page.$$eval("#gsc_rsb_st tbody tr", (stats) => {
-    const data = stats.map((stat) => stat.children[1].textContent);
-    return {
-      citations: parseInt(data[0]),
-      "h-index": parseInt(data[1]),
-      "i10-index": parseInt(data[2]),
-    } as PersonData;
+    const stats = await page.$$eval("#gsc_rsb_st tbody tr", (stats) => {
+      const [citations, hIndex, i10Index] = stats.map((stat) =>
+        parseInt(stat.children[1].textContent)
+      );
+      return {
+        citations,
+        "h-index": hIndex,
+        "i10-index": i10Index,
+      } as PersonData;
+    });
+
+    const urls = await page.$$eval(
+      "a[href*='citation_for_view']",
+      (links: HTMLAnchorElement[]) => links.map((link) => link.href)
+    );
+
+    return { urls, stats };
   });
-
-  const urls = await page.$$eval(
-    "a[href*='citation_for_view']",
-    (links: HTMLAnchorElement[]) => links.map((link) => link.href)
-  );
-
-  await page.close();
-
-  return { urls, stats };
-}

@@ -7,10 +7,10 @@
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
 
-import { spawnSync } from "child_process";
 import { database, storage } from "firebase-admin";
 import { initializeApp } from "firebase-admin/app";
-import * as logger from "firebase-functions/logger";
+import "firebase-functions/logger/compat";
+import { onRequest } from "firebase-functions/v2/https";
 import { onSchedule } from "firebase-functions/v2/scheduler";
 import getData from "scraping";
 
@@ -20,20 +20,48 @@ import getData from "scraping";
 initializeApp();
 
 // in the function's body
-export const scraping = onSchedule("*/5 * * * *", async () => {
-  spawnSync("pnpm", ["exec", "playwright", "install", "firefox"]);
+export const scraping = onSchedule(
+  { schedule: "*/5 * * * *", cpu: 2, memory: "4GiB" },
+  async () => {
+    const { bibtex, num } = await getData();
 
-  const { bibtex, num } = await getData();
+    const db = database();
+    const ref = db.ref("tmp").child("tmp").child("entries");
+    const oldNum: number = (await ref.get()).val();
 
-  const db = database();
-  const ref = await db.ref("tmp").child("tmp").child("entries").get();
-  const oldNum = ref.val();
+    if (oldNum === num) {
+      console.info("No new entries found, exiting ...");
+      return;
+    }
 
-  if (oldNum === num) {
-    logger.info("No new entries found, exiting ...");
-    return;
+    ref.set(num);
+
+    const stor = storage();
+    stor.bucket().file("results.bib").save(bibtex);
   }
+);
 
-  const stor = storage();
-  stor.bucket().file("results.bib").save(bibtex);
-});
+export const testScraping = onRequest(
+  {
+    cpu: 2,
+    memory: "4GiB",
+    maxInstances: 1,
+  },
+  async () => {
+    const { bibtex, num } = await getData();
+
+    const db = database();
+    const ref = db.ref("tmp").child("tmp").child("entries");
+    const oldNum: number = (await ref.get()).val();
+
+    if (oldNum === num) {
+      console.info("No new entries found, exiting ...");
+      return;
+    }
+
+    ref.set(num);
+
+    const stor = storage();
+    stor.bucket().file("results.bib").save(bibtex);
+  }
+);

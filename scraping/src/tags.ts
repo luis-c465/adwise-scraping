@@ -1,3 +1,4 @@
+import * as data from "./assets/pub.json";
 import type { Result } from "./result.js";
 import { reduceObject } from "./util.js";
 
@@ -10,7 +11,9 @@ export type PubData = {
   };
 };
 
-export function addTags(obj: Result, pubData: PubData) {
+export function addTags(obj: Result) {
+  const pubData = data as PubData;
+
   if (obj.tags) {
     return { ...obj, tags: obj.tags };
   }
@@ -18,9 +21,9 @@ export function addTags(obj: Result, pubData: PubData) {
   const likelyHoods = Object.entries(pubData).map(([key, value]) => {
     return {
       [key]: Math.max(
-        ...value.publications.map(({ fullText }) =>
+        ...(value.publications?.map(({ fullText }) =>
           similarity(obj.title, fullText)
-        )
+        ) ?? [0])
       ),
     };
   });
