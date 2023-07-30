@@ -6,7 +6,7 @@ export type Result = {
   url: string;
   scholarUrl: string;
   year: string;
-  date: string;
+  publicationDate: string;
   description: string;
 
   articles: string;
@@ -32,10 +32,6 @@ export type Result = {
 export const getResult = (url: string, browser: Browser) =>
   withPage(browser, async (page) => {
     await page.goto(url);
-    console.info(
-      `Scraping ${url}`,
-      await page.evaluate(() => document.body.innerHTML)
-    );
 
     const [title, linkUrl] = await page.$eval(
       "a.gsc_oci_title_link",

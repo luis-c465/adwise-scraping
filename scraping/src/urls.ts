@@ -13,7 +13,6 @@ export type PersonData = {
 export const getUrlsAndStats = (url: string, browser: Browser) =>
   withPage(browser, async (page) => {
     await page.goto(url);
-    console.log(await page.evaluate(() => document.body.innerHTML));
 
     while (true) {
       const showMoreBtn = await page.$("#gsc_bpf_more:not([disabled])");

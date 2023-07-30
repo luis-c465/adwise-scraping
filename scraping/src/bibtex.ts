@@ -12,7 +12,13 @@ export function getBibtex(obj: Result) {
     : "article";
 
   // Comment this out bc this is only for some minor fuckups
-  const year = (obj?.publicationDate as string)?.split("/")[0];
+  const [year, month, day] = (obj?.publicationDate as string)?.split("/") ?? [
+    null,
+    null,
+    null,
+  ];
+
+  const formattedDate = getFormattedDate(year, month, day);
   const description = obj?.description
     ?.replaceAll(/[^ -~]+/g, "")
     .replaceAll("%", " percent");
@@ -24,10 +30,13 @@ export function getBibtex(obj: Result) {
 
   const newObj: any = {
     ...obj,
-    pub_year: year,
-    year,
-    date: null,
-    publicationDate: null,
+    // pub_year: year,
+    // year,
+    // month: month?.length == 1 ? `0${month}` : month,
+    // day: day?.length == 1 ? `0${day}` : day,
+    // pubdate: formattedDate,
+    date: formattedDate,
+    // publicationDate: formattedDate,
     author: authors,
     authors,
     school: "Florida International University",
@@ -35,6 +44,7 @@ export function getBibtex(obj: Result) {
     pages: (obj?.pages as string)?.replaceAll("-", "--"),
     description: null,
     abstract: description,
+    booktitle: obj?.conference,
   };
 
   return `@${type}{kem${obj.scholarUrl.split(":")[2]}
@@ -52,6 +62,23 @@ export function getBibtex(obj: Result) {
         })
         .join(",\n")}
     }`;
+}
+
+export function getFormattedDate(year: string, month?: string, day?: string) {
+  let temp = year;
+  if (month) {
+    temp += `-${month.length === 1 ? `0${month}` : month}`;
+  } else {
+    temp += "-00";
+  }
+
+  if (day) {
+    temp += `-${day.length === 1 ? `0${day}` : day}`;
+  } else {
+    temp += "-00";
+  }
+
+  return temp;
 }
 
 export function shouldBeIncluded(obj: Result) {
