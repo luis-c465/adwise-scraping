@@ -8,11 +8,11 @@ import {
   getBibtex,
   getResult,
   getUrlsAndStats,
+  withBrowser,
 } from "scraping";
 
-(async () => {
-  console.log(chalk.green("Starting the browser, this may take a while ..."));
-
+console.log(chalk.green("Starting the browser, this may take a while ..."));
+withBrowser(async (browser) => {
   const progressBar = new SingleBar(
     {
       format: `${chalk.green(
@@ -21,7 +21,7 @@ import {
     },
     Presets.shades_classic
   );
-  const { stats, urls } = await getUrlsAndStats(BASEURL);
+  const { stats, urls } = await getUrlsAndStats(BASEURL, browser);
 
   console.log(
     chalk.bold.blue("Professor Dr. Kemal Akkaya Google Scholar Stats:")
@@ -49,7 +49,7 @@ import {
   const results = await map(
     urls,
     async (url) => {
-      const result = await getResult(url);
+      const result = await getResult(url, browser);
       const withTag = addTags(result);
       const bibtex = getBibtex(withTag);
 
@@ -69,4 +69,4 @@ import {
   console.log(
     `${chalk.bold("Output is in")} => ${chalk.gray("./data/results.bib")}\n`
   );
-})()
+});
