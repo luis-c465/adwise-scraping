@@ -1,35 +1,9 @@
-import pmap from "promise.map";
-import { loadPage, normalizeString } from "./util";
+import pMap from "@cjs-exporter/p-map";
+import { Result } from "./main";
+import { loadPage } from "./urls";
+import { normalizeString } from "./util";
 
-export type Result = {
-  title: string;
-  url: string;
-  scholarUrl: string;
-  year: string;
-  publicationDate: string;
-  description: string;
-
-  articles: string;
-
-  [key: string]: string | string[] | null;
-} & (
-  | {
-      inventors: string[];
-      office: string;
-      number: string;
-    }
-  | {
-      authors: string[];
-      conference: string;
-    }
-  | {
-      journal: string;
-      volume: string;
-      pages: string;
-    }
-);
-
-export async function getResult(url: string) {
+export default async function getResult(url: string): Promise<Result> {
   const $ = await loadPage(url);
 
   const titleElm = $("a.gsc_oci_title_link");
@@ -52,10 +26,10 @@ export async function getResult(url: string) {
     .toArray()
     .map((e) => $(e));
 
-  const tableInfo = await pmap(tableInfoElms, async (e) => [
+  const tableInfo = await pMap(tableInfoElms, async (e) => [
     normalizeString(e.find(".gsc_oci_field").text()),
-    e.find(".gsc_oci_value").text(), {}
-  ], 10);
+    e.find(".gsc_oci_value").text(),
+  ]);
 
   const obj = Object.fromEntries(tableInfo);
   return {
@@ -65,5 +39,4 @@ export async function getResult(url: string) {
     year: obj.publicationDate ?? obj?.publicationDate?.split("/")[0],
     authors: obj.authors ?? obj?.authors?.split(","),
   } as unknown as Result;
-
 }

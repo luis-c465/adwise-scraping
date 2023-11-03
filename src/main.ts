@@ -1,18 +1,43 @@
-import { map } from "bluebird";
+import pMap from "@cjs-exporter/p-map";
 import chalk from "chalk";
 import { Presets, SingleBar } from "cli-progress";
 import { promises as fs } from "fs";
-import {
-  BASEURL,
-  addTags,
-  getBibtex,
-  getResult,
-  getUrlsAndStats,
-} from "scraping";
+import { getBibtex } from "./bibtex";
+import getResult from "./result";
+import { PubData, addTags } from "./tags";
+import getUrlsAndStats from "./urls";
 
-(async () => {
-  console.log(chalk.green("Starting the browser, this may take a while ..."));
+export type Result = {
+  title: string;
+  url: string;
+  scholarUrl: string;
+  year: string;
+  date: string;
+  description: string;
 
+  articles: string;
+
+  [key: string]: string | string[] | null;
+} & (
+  | {
+      inventors: string[];
+      office: string;
+      number: string;
+    }
+  | {
+      authors: string[];
+    }
+  | {
+      journal: string;
+      volume: string;
+      pages: string;
+    }
+);
+
+main();
+
+async function main() {
+  // format: "Scraping google scholar \n" + chalk.green("{bar}") + "| {percentage}% || {value}/{total} publications || {duration}s",
   const progressBar = new SingleBar(
     {
       format: `${chalk.green(
@@ -21,8 +46,14 @@ import {
     },
     Presets.shades_classic
   );
-  const { stats, urls } = await getUrlsAndStats(BASEURL);
 
+  const pubData: PubData = JSON.parse(
+    await fs.readFile("./assets/pub.json", {
+      encoding: "utf-8",
+    })
+  );
+
+  const { stats, urls } = await getUrlsAndStats();
   console.log(
     chalk.bold.blue("Professor Dr. Kemal Akkaya Google Scholar Stats:")
   );
@@ -46,18 +77,18 @@ import {
     return;
   }
 
-  const results = await map(
+  const results = await pMap(
     urls,
     async (url) => {
       const result = await getResult(url);
-      const withTag = addTags(result);
+      const withTag = addTags(result, pubData);
       const bibtex = getBibtex(withTag);
 
       progressBar.increment();
 
       return bibtex;
     },
-    { concurrency: 10 }
+    { concurrency: 10, stopOnError: true }
   );
 
   const data = results.filter((r) => r !== null).join("\n\n");
@@ -69,4 +100,4 @@ import {
   console.log(
     `${chalk.bold("Output is in")} => ${chalk.gray("./data/results.bib")}\n`
   );
-})()
+}
