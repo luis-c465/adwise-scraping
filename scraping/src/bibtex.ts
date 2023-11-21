@@ -1,6 +1,6 @@
-import type { Result } from "./result.js";
+import type { ResultWithTags } from "./tags.js";
 
-export function getBibtex(obj: Result) {
+export function getBibtex(obj: ResultWithTags) {
   if (!shouldBeIncluded(obj)) {
     return null;
   }
@@ -18,27 +18,24 @@ export function getBibtex(obj: Result) {
     null,
   ];
 
+  const authors = (
+    (obj?.authors as string[]) || (obj?.inventors as string)?.split(",")
+  )?.map((s) => s.trim());
+
+  const firstAuthorLastName = authors.at(0).split(" ")[1];
+  const id = `${firstAuthorLastName}${year}${month}${day}`;
+
   const formattedDate = getFormattedDate(year, month, day);
   const description = obj?.description
     ?.replaceAll(/[^ -~]+/g, "")
     .replaceAll("%", " percent");
-  const authors = (
-    (obj?.authors as string[]) || (obj?.inventors as string)?.split(",")
-  )
-    ?.map((s) => s.trim())
-    ?.join(" and ");
+  const authorsStr = authors?.join(" and ");
 
   const newObj: any = {
     ...obj,
-    // pub_year: year,
-    // year,
-    // month: month?.length == 1 ? `0${month}` : month,
-    // day: day?.length == 1 ? `0${day}` : day,
-    // pubdate: formattedDate,
     date: formattedDate,
-    // publicationDate: formattedDate,
-    author: authors,
-    authors,
+    author: authorsStr,
+    authors: authorsStr,
     school: "Florida International University",
     number: obj?.issue,
     pages: (obj?.pages as string)?.replaceAll("-", "--"),
@@ -47,20 +44,22 @@ export function getBibtex(obj: Result) {
     booktitle: obj?.conference,
   };
 
-  return `@${type}{kem${obj.scholarUrl.split(":")[2]}
-      ${Object.entries(newObj)
-        .filter(
-          ([key, value]) =>
-            key && value && !["scholarArticles", "totalCitations"].includes(key)
-        )
-        .map(([key, value]) => {
-          if (!key || !value) {
-            return "";
-          }
+  const bibtexBody = Object.entries(newObj)
+    .filter(
+      ([key, value]) =>
+        key && value && !["scholarArticles", "totalCitations"].includes(key)
+    )
+    .map(([key, value]) => {
+      if (!key || !value) {
+        return "";
+      }
 
-          return `${key} = \{${value}\}`;
-        })
-        .join(",\n")}
+      return `${key} = \{${value}\}`;
+    })
+    .join(",\n");
+
+  return `@${type}{${id}
+      ${bibtexBody}
     }`;
 }
 
@@ -81,7 +80,7 @@ export function getFormattedDate(year: string, month?: string, day?: string) {
   return temp;
 }
 
-export function shouldBeIncluded(obj: Result) {
+export function shouldBeIncluded(obj: ResultWithTags) {
   const index = /index/i;
   return (
     !((obj?.description?.match(index) ?? false) || obj?.title?.match(index)) &&

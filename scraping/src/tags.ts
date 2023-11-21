@@ -11,11 +11,13 @@ export type PubData = {
   };
 };
 
-export function addTags(obj: Result) {
+export type ResultWithTags = Result & { tags: string };
+
+export function addTags(obj: Result): ResultWithTags {
   const pubData = data as PubData;
 
   if (obj.tags) {
-    return { ...obj, tags: obj.tags };
+    return { ...obj } as ResultWithTags;
   }
 
   const likelyHoods = Object.entries(pubData).map(([key, value]) => {
